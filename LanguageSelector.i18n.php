@@ -165,6 +165,13 @@ $messages['bg'] = array(
 	'languageselector' => 'Език',
 );
 
+/** Bhojpuri (भोजपुरी)
+ * @author Anshumangupta21
+ */
+$messages['bho'] = array(
+	'languageselector' => 'भाषा',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
