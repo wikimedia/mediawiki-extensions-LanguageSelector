@@ -170,6 +170,7 @@ $messages['bg'] = array(
  */
 $messages['bho'] = array(
 	'languageselector' => 'भाषा',
+	'languageselector-setlang' => 'गुट',
 );
 
 /** Bengali (বাংলা)
