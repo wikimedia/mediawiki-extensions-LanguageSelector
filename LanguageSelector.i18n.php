@@ -1041,10 +1041,12 @@ $messages['sv'] = array(
 );
 
 /** Tamil (தமிழ்)
+ * @author Karthi.dr
  * @author Mahir78
  */
 $messages['ta'] = array(
 	'languageselector' => 'மொழி',
+	'languageselector-setlang' => 'அமை',
 );
 
 /** Telugu (తెలుగు)
