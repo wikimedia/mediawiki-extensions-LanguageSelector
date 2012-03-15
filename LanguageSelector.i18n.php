@@ -43,6 +43,13 @@ $messages['tly'] = array(
 	'languageselector' => 'Зывон',
 );
 
+/** Ṫuroyo (Ṫuroyo)
+ * @author Ariyo
+ */
+$messages['tru'] = array(
+	'languageselector' => 'Leşono',
+);
+
 /** Abkhazian (Аҧсуа)
  * @author Temuri rajavi
  */
