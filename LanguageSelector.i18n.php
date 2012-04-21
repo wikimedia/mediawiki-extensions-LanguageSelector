@@ -36,13 +36,6 @@ $messages['gom-latn'] = array(
 	'languageselector' => 'Bhas',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'languageselector' => 'Зывон',
-);
-
 /** Ṫuroyo (Ṫuroyo)
  * @author Ariyo
  */
@@ -129,9 +122,11 @@ $messages['ast'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Proger
+ * @author Wertuose
  */
 $messages['az'] = array(
 	'languageselector' => 'Dil',
+	'languageselector-desc' => 'Hər səhifədə dil seçimi, eyni zamanda oxucular üçün',
 	'languageselector-setlang' => 'Seç',
 );
 
@@ -1111,6 +1106,13 @@ $messages['tl'] = array(
 	'languageselector' => 'Wika',
 	'languageselector-desc' => 'Pampili ng wika na nasa ibabaw ng bawat pahina, para rin sa mga panauhin',
 	'languageselector-setlang' => 'itakda',
+);
+
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'languageselector' => 'Зывон',
 );
 
 /** Turkish (Türkçe)
