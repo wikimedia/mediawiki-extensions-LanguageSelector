@@ -538,12 +538,13 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Darth Kule
  * @author Nemo bis
  */
 $messages['it'] = array(
 	'languageselector' => 'Lingua',
-	'languageselector-desc' => 'Selettore della lingua in tutte le pagine, anche per gli ospiti',
+	'languageselector-desc' => 'Selettore della lingua in tutte le pagine, anche per i lettori',
 	'languageselector-setlang' => 'imposta',
 );
 
