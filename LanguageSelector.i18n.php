@@ -43,7 +43,7 @@ $messages['tru'] = array(
 	'languageselector' => 'Leşono',
 );
 
-/** Abkhazian (Аҧсуа)
+/** Abkhazian (Аҧсшәа)
  * @author Temuri rajavi
  */
 $messages['ab'] = array(
@@ -794,6 +794,7 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Jon Harald Søby
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'languageselector' => 'Språk',
@@ -846,6 +847,13 @@ $messages['pa'] = array(
  */
 $messages['pdc'] = array(
 	'languageselector' => 'Schprooch',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'languageselector' => 'Schbrooch',
 );
 
 /** Polish (Polski)
@@ -1078,7 +1086,7 @@ $messages['tg-cyrl'] = array(
 	'languageselector-desc' => 'Забон интихобкунанда дар ҳар саҳифа, барои ташрифоварандагон низ',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1109,7 +1117,7 @@ $messages['tl'] = array(
 	'languageselector-setlang' => 'itakda',
 );
 
-/** толышә зывон (толышә зывон)
+/** Толышә зывон (Толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1134,7 +1142,14 @@ $messages['tt-cyrl'] = array(
 	'languageselector-setlang' => 'урнаштыру',
 );
 
-/** Uyghur (Latin script) (Uyghurche‎)
+/** Tuvinian (Тыва дыл)
+ * @author Sborsody
+ */
+$messages['tyv'] = array(
+	'languageselector' => 'Дыл',
+);
+
+/** Uyghur (Latin script) (Uyghurche)
  * @author Jose77
  */
 $messages['ug-latn'] = array(
@@ -1160,7 +1175,7 @@ $messages['vec'] = array(
 	'languageselector-setlang' => 'selessiona',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */
