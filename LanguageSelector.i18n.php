@@ -711,10 +711,13 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
 	'languageselector' => 'ഭാഷ',
+	'languageselector-desc' => 'സന്ദർശകർക്കുൾപ്പെടെ എല്ലാവർക്കും എല്ലാ താളിലും ഭാഷ തിരഞ്ഞെടുക്കൽ സൗകര്യം',
+	'languageselector-setlang' => 'സജ്ജീകരിക്കുക',
 );
 
 /** Mongolian (Монгол)
