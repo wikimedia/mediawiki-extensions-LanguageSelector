@@ -785,6 +785,15 @@ $messages['nds'] = array(
 	'languageselector-setlang' => 'setten',
 );
 
+/** Nepali (नेपाली)
+ * @author RajeshPandey
+ */
+$messages['ne'] = array(
+	'languageselector' => 'भाषा',
+	'languageselector-desc' => 'हरेक पृष्ठमा आगन्तुकलाई भाषा छनौट गर्न दिने सामाग्री',
+	'languageselector-setlang' => 'छान्नुहोस',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  */
