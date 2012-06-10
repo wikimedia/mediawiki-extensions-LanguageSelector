@@ -1213,6 +1213,15 @@ $messages['vo'] = array(
 	'languageselector' => 'Pük',
 );
 
+/** Walloon (walon)
+ * @author Srtxg
+ */
+$messages['wa'] = array(
+	'languageselector' => 'Lingaedje',
+	'languageselector-desc' => 'Li lingaedje pout esse tchoezi so tchaeke pådje, minme po les viziteus',
+	'languageselector-setlang' => 'defini',
+);
+
 /** Yiddish (ייִדיש)
  * @author פוילישער
  */
