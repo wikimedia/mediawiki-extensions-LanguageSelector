@@ -92,7 +92,7 @@ $messages['arc'] = array(
 	'languageselector' => 'ܠܫܢܐ',
 );
 
-/** Araucanian (Mapudungun)
+/** Araucanian (mapudungun)
  * @author Kaniw
  * @author Lin linao
  */
@@ -111,7 +111,7 @@ $messages['arz'] = array(
 	'languageselector-setlang' => 'ضبط',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  */
 $messages['ast'] = array(
@@ -120,7 +120,7 @@ $messages['ast'] = array(
 	'languageselector-setlang' => 'establecer',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Proger
  * @author Wertuose
  */
@@ -160,7 +160,7 @@ $messages['be-tarask'] = array(
 	'languageselector-setlang' => 'усталяваць',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -193,7 +193,7 @@ $messages['bo'] = array(
 	'languageselector-setlang' => 'སྒྲིག',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -202,7 +202,7 @@ $messages['br'] = array(
 	'languageselector-setlang' => 'Termeniñ',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -218,7 +218,7 @@ $messages['bxr'] = array(
 	'languageselector' => 'Хэлэн',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Jordi Roqué
  * @author SMP
  */
@@ -228,7 +228,7 @@ $messages['ca'] = array(
 	'languageselector-setlang' => 'selecciona',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Marmzok
  * @author رزگار
  */
@@ -238,7 +238,7 @@ $messages['ckb'] = array(
 	'languageselector-setlang' => 'داینێ',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -272,7 +272,7 @@ $messages['cy'] = array(
 	'languageselector-setlang' => 'gosod',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Jon Harald Søby
  * @author Peter Alberti
  */
@@ -302,7 +302,7 @@ $messages['dsb'] = array(
 	'languageselector-setlang' => 'stajiś',
 );
 
-/** Ewe (Eʋegbe)
+/** Ewe (eʋegbe)
  * @author Natsubee
  */
 $messages['ee'] = array(
@@ -331,7 +331,7 @@ $messages['eo'] = array(
 	'languageselector-setlang' => 'fari',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -340,7 +340,7 @@ $messages['es'] = array(
 	'languageselector-setlang' => 'selecciona',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Silvar
  */
 $messages['et'] = array(
@@ -349,7 +349,7 @@ $messages['et'] = array(
 	'languageselector-setlang' => 'vali',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author Theklan
  */
 $messages['eu'] = array(
@@ -358,7 +358,7 @@ $messages['eu'] = array(
 	'languageselector-setlang' => 'ezarri',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -376,7 +376,7 @@ $messages['fa'] = array(
 	'languageselector-setlang' => 'اعمال',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Nike
  */
@@ -386,7 +386,7 @@ $messages['fi'] = array(
 	'languageselector-setlang' => 'aseta',
 );
 
-/** French (Français)
+/** French (français)
  * @author Bertrand GRONDIN
  */
 $messages['fr'] = array(
@@ -395,7 +395,7 @@ $messages['fr'] = array(
 	'languageselector-setlang' => 'Définir',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -477,7 +477,7 @@ $messages['hi'] = array(
 	'languageselector-setlang' => 'सैट करें',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  */
 $messages['hr'] = array(
@@ -495,7 +495,7 @@ $messages['hsb'] = array(
 	'languageselector-setlang' => 'stajić',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dorgan
  */
@@ -505,7 +505,7 @@ $messages['hu'] = array(
 	'languageselector-setlang' => 'beállítás',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author Malafaya
  * @author McDutchie
  */
@@ -532,12 +532,12 @@ $messages['io'] = array(
 	'languageselector-setlang' => 'establisar',
 );
 
-/** Icelandic (Íslenska) */
+/** Icelandic (íslenska) */
 $messages['is'] = array(
 	'languageselector' => 'Tungumál',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Darth Kule
  * @author Nemo bis
@@ -593,7 +593,7 @@ $messages['kk-latn'] = array(
 	'languageselector-setlang' => 'anıqtaw',
 );
 
-/** Kalaallisut (Kalaallisut)
+/** Kalaallisut (kalaallisut)
  * @author Qaqqalik
  */
 $messages['kl'] = array(
@@ -643,7 +643,7 @@ $messages['ku-latn'] = array(
 	'languageselector' => 'Ziman',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -685,7 +685,7 @@ $messages['li'] = array(
 	'languageselector-setlang' => 'instèlle',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Hugo.arg
  */
 $messages['lt'] = array(
@@ -693,7 +693,7 @@ $messages['lt'] = array(
 	'languageselector-setlang' => 'nustatyti',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -701,7 +701,7 @@ $messages['ltg'] = array(
 	'languageselector-setlang' => 'nūstateit',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -720,7 +720,7 @@ $messages['ml'] = array(
 	'languageselector-setlang' => 'സജ്ജീകരിക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -803,7 +803,7 @@ $messages['nl'] = array(
 	'languageselector-setlang' => 'instellen',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -821,7 +821,7 @@ $messages['nso'] = array(
 	'languageselector' => 'Polelo',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -868,7 +868,7 @@ $messages['pfl'] = array(
 	'languageselector' => 'Schbrooch',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author McMonster
  * @author Wpedzich
  */
@@ -896,7 +896,7 @@ $messages['ps'] = array(
 	'languageselector-setlang' => 'ټاکل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
@@ -907,7 +907,7 @@ $messages['pt'] = array(
 	'languageselector-setlang' => 'seleccionar',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  * @author MF-Warburg
@@ -927,14 +927,14 @@ $messages['qu'] = array(
 	'languageselector-setlang' => 'churay',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'languageselector' => 'Limbă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -943,7 +943,7 @@ $messages['roa-tara'] = array(
 	'languageselector-setlang' => "'mboste",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Kaganer
  * @author Александр Сигачёв
  */
@@ -962,7 +962,7 @@ $messages['rue'] = array(
 	'languageselector-setlang' => 'становити',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -987,7 +987,7 @@ $messages['si'] = array(
 	'languageselector-setlang' => 'සකසන්න',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -996,7 +996,7 @@ $messages['sk'] = array(
 	'languageselector-setlang' => 'nastaviť',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  * @author Smihael
  */
@@ -1016,7 +1016,7 @@ $messages['sli'] = array(
 	'languageselector-setlang' => 'setza',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1026,7 +1026,7 @@ $messages['sr-ec'] = array(
 	'languageselector-setlang' => 'постави',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1053,7 +1053,7 @@ $messages['su'] = array(
 	'languageselector-setlang' => 'set',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  */
@@ -1081,7 +1081,7 @@ $messages['te'] = array(
 	'languageselector-setlang' => 'అమర్చు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -1090,7 +1090,7 @@ $messages['tet'] = array(
 	'languageselector-setlang' => 'hili',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1098,7 +1098,7 @@ $messages['tg-cyrl'] = array(
 	'languageselector-desc' => 'Забон интихобкунанда дар ҳар саҳифа, барои ташрифоварандагон низ',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1129,7 +1129,7 @@ $messages['tl'] = array(
 	'languageselector-setlang' => 'itakda',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1146,7 +1146,7 @@ $messages['tr'] = array(
 	'languageselector-setlang' => 'ayar',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
 $messages['tt-cyrl'] = array(
@@ -1168,7 +1168,7 @@ $messages['ug-latn'] = array(
 	'languageselector' => 'Til',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author AS
  * @author Prima klasy4na
  */
@@ -1178,7 +1178,7 @@ $messages['uk'] = array(
 	'languageselector-setlang' => 'встановити',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1237,7 +1237,7 @@ $messages['yue'] = array(
 	'languageselector-setlang' => '設',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author PhiLiP
  * @author Shinjiman
  */
@@ -1247,7 +1247,7 @@ $messages['zh-hans'] = array(
 	'languageselector-setlang' => '设置',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
