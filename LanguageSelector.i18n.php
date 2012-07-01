@@ -150,7 +150,7 @@ $messages['bar'] = array(
 	'languageselector-setlang' => 'sétzen',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Red Winged Duck
  */
@@ -247,7 +247,7 @@ $messages['cs'] = array(
 	'languageselector-setlang' => 'nastavit',
 );
 
-/** Kashubian (Kaszëbsczi)
+/** Kashubian (kaszëbsczi)
  * @author Kaszeba
  */
 $messages['csb'] = array(
@@ -256,7 +256,7 @@ $messages['csb'] = array(
 	'languageselector-setlang' => 'nastôwi',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -293,7 +293,7 @@ $messages['de'] = array(
 	'languageselector-setlang' => 'setzen',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -413,7 +413,7 @@ $messages['gd'] = array(
 	'languageselector-setlang' => 'suidhich',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -486,7 +486,7 @@ $messages['hr'] = array(
 	'languageselector-setlang' => 'postavi',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -631,7 +631,7 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'languageselector' => 'Sproch',
+	'languageselector' => 'Schprooch',
 	'languageselector-desc' => 'Shprooche-Wahl op jede Sigk, och för namelose Metmaacher, un oohne Aanmëllde.',
 	'languageselector-setlang' => 'Setze',
 );
@@ -953,7 +953,7 @@ $messages['ru'] = array(
 	'languageselector-setlang' => 'установить',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
