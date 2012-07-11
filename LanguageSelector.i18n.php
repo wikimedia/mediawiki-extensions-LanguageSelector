@@ -130,7 +130,7 @@ $messages['az'] = array(
 	'languageselector-setlang' => 'Seç',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
  */
@@ -211,7 +211,7 @@ $messages['bs'] = array(
 	'languageselector-setlang' => 'postavi',
 );
 
-/** Буряад (Буряад)
+/** буряад (буряад)
  * @author ОйЛ
  */
 $messages['bxr'] = array(
@@ -581,13 +581,13 @@ $messages['kk-arab'] = array(
 	'languageselector-setlang' => 'انىقتاۋ',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
 $messages['kk-cyrl'] = array(
 	'languageselector' => 'Тіл',
 	'languageselector-setlang' => 'анықтау',
 );
 
-/** Kazakh (Latin script) (‪Qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
 $messages['kk-latn'] = array(
 	'languageselector' => 'Til',
 	'languageselector-setlang' => 'anıqtaw',
@@ -753,7 +753,7 @@ $messages['mt'] = array(
 	'languageselector' => 'Lingwa',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -768,9 +768,7 @@ $messages['nah'] = array(
 	'languageselector' => 'Tlâtòlli',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'languageselector' => 'Språk',
 	'languageselector-desc' => 'Valg av språk på alle sider, også for gjester',
@@ -1154,7 +1152,7 @@ $messages['tt-cyrl'] = array(
 	'languageselector-setlang' => 'урнаштыру',
 );
 
-/** Tuvinian (Тыва дыл)
+/** Tuvinian (тыва дыл)
  * @author Sborsody
  */
 $messages['tyv'] = array(
@@ -1187,7 +1185,7 @@ $messages['vec'] = array(
 	'languageselector-setlang' => 'selessiona',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Triple-ADHD-AS
  * @author Игорь Бродский
  */
