@@ -2,8 +2,10 @@
 /**
  * Internationalisation file for extension LanguageSelector.
  *
- * @file
+ * @file LanguageSelector.i18n.php
  * @ingroup Extensions
+ * @package MediaWiki
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 $messages = array();
@@ -25,7 +27,7 @@ $messages['qqq'] = array(
 	'languageselector' => 'Part of the "LanguageSelector" extension. You can see it when the wiki administrator has chosen for a language selector in the sidebar, so this message would be the title, like you have "navigation", "search" and "toolbox".
 
 {{Identical|Language}}',
-	'languageselector-desc' => 'Part of the "LanguageSelector" extension. This is a description of this extension shown on [[Special:Version]].',
+	'languageselector-desc' => '{{desc}}',
 	'languageselector-setlang' => 'Part of the "LanguageSelector" extension. This is the text of a submit button to select your user interface language. Mostly the button  is not shown, but sometimes it appears next to the language selector (a dropdown box like in your [[Special:Preferences|user preferences]]).',
 );
 

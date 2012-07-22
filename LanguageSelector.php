@@ -1,19 +1,22 @@
 <?php
 /**
- * LanguageSelector extension - language selector on every page, also for visitors
+ * LanguageSelector extension - Adds a language selector on every page
  *
  * Features:
  *  * Automatic detection of the language to use for anonymous visitors
- *  * Ads selector for preferred language to every page (also works for anons)
+ *  * Adds selector for preferred language to every page (also works for anons)
  *
- * This can be combined with Polyglot and MultiLang to provide more internationalization support.
+ * This extension may be combined with the Polyglot and the MultiLang extension
+ * to provide more internationalization support.
  *
+ * @link https://www.mediawiki.org/wiki/Extension:LanguageSelector Documentation
  *
- * @file
+ * @file LanguageSelector.php
  * @ingroup Extensions
- * @author Daniel Kinzler, brightbyte.de
+ * @package MediaWiki
+ * @author Daniel Kinzler (Duesentrieb), brightbyte.de
  * @copyright © 2007 Daniel Kinzler
- * @licence GNU General Public Licence 2.0 or later
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
 if( !defined( 'MEDIAWIKI' ) ) {
@@ -25,7 +28,7 @@ $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'Language Selector',
 	'author'         => 'Daniel Kinzler',
-	'url'            => 'http://mediawiki.org/wiki/Extension:LanguageSelector',
+	'url'            => 'https://mediawiki.org/wiki/Extension:LanguageSelector',
 	'descriptionmsg' => 'languageselector-desc',
 );
 
@@ -69,7 +72,7 @@ define( 'LANGUAGE_SELECTOR_INTO_CATLINKS', 14 ); #put after catlinks text
 
 $wgLanguageSelectorLocation = LANGUAGE_SELECTOR_AT_TOP_OF_TEXT;
 
-///// hook it up /////////////////////////////////////////////////////
+// register hook handlers
 $wgHooks['AddNewAccount'][] = 'wfLanguageSelectorAddNewAccount';
 $wgHooks['BeforePageDisplay'][] = 'wfLanguageSelectorBeforePageDisplay';
 $wgHooks['GetCacheVaryCookies'][] = 'wfLanguageSelectorGetCacheVaryCookies';
