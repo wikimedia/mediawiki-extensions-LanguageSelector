@@ -295,6 +295,14 @@ $messages['de'] = array(
 	'languageselector-setlang' => 'setzen',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'languageselector' => 'Zıwan',
+	'languageselector-setlang' => 'saz',
+);
+
 /** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
