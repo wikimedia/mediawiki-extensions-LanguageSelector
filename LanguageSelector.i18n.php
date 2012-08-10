@@ -577,10 +577,12 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author Temuri rajavi
  */
 $messages['ka'] = array(
 	'languageselector' => 'ენა',
+	'languageselector-setlang' => 'დაყენება',
 );
 
 /** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
