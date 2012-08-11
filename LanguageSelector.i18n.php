@@ -38,7 +38,7 @@ $messages['gom-latn'] = array(
 	'languageselector' => 'Bhas',
 );
 
-/** Ṫuroyo (Ṫuroyo)
+/** Turoyo (Ṫuroyo)
  * @author Ariyo
  */
 $messages['tru'] = array(
