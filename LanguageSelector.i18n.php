@@ -1188,6 +1188,14 @@ $messages['uk'] = array(
 	'languageselector-setlang' => 'встановити',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'languageselector' => 'زبان',
+	'languageselector-setlang' => 'مرتب کریں',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
