@@ -34,7 +34,7 @@ and is released under the GNU General Public License (GPL).
 
 == Installing ==
 
-Copy the LanguageSelector directory into the extensions folder of your 
+Copy the LanguageSelector directory into the extensions folder of your
 MediaWiki installation. Then add the following line to your
 LocalSettings.php file (near the end):
 
@@ -49,7 +49,7 @@ including the extension file):
   selection. If set to NULL (the default), all languages known to MediaWiki
   (by $wgLanguageNames) are considered. If the Polyglot extension is
   installed and $wgPolyglotLanguages is set, that value will be used as a
-  fallback. Setting $wgLanguageSelectorLanguages to a shorter list may 
+  fallback. Setting $wgLanguageSelectorLanguages to a shorter list may
   be more convenient for users than selecting from a list with more than a
   hundred mostly useless entries.
 
@@ -64,7 +64,7 @@ including the extension file):
 
 * $wgLanguageSelectorLocation: where to inject the language selector
   widget. Note that you will probably have to adjust your CSS styles
-  to adopt the language selector to your wiki's style. 
+  to adopt the language selector to your wiki's style.
   Possible values of $wgLanguageSelectorLocation:
 ** LANGUAGE_SELECTOR_MANUAL: do not show language selector. This can be
    usefull if you only want to use the auto-detection feature, or only want
@@ -77,7 +77,7 @@ including the extension file):
    toolbox in the sidebar. This doesn't work in all skins, mostly in skin
    MonoBook, or skins explicitly supporting the SkinTemplateToolboxEnd hook.
 ** LANGUAGE_SELECTOR_AS_PORTLET: inject the language selector as a portlet
-   in the sidebar, similar to how interlanguage-links are shown. 
+   in the sidebar, similar to how interlanguage-links are shown.
    Works with MonoBook skin, may also work with some SkinTemplate-based skins.
 ** LANGUAGE_SELECTOR_INTO_SITENOTICE: inject a dropdown box at the end of
    the sitenotice text. Ugly without additional CSS rules applied.
