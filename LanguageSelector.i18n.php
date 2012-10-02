@@ -94,7 +94,7 @@ $messages['arc'] = array(
 	'languageselector' => 'ܠܫܢܐ',
 );
 
-/** Araucanian (mapudungun)
+/** Mapuche (mapudungun)
  * @author Kaniw
  * @author Lin linao
  */
@@ -152,7 +152,7 @@ $messages['bar'] = array(
 	'languageselector-setlang' => 'sétzen',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Red Winged Duck
  */
@@ -585,7 +585,7 @@ $messages['ka'] = array(
 	'languageselector-setlang' => 'დაყენება',
 );
 
-/** Kazakh (Arabic script) (‫قازاقشا (تٴوتە)‬)
+/** Kazakh (Arabic script) (قازاقشا (تٴوتە)‏)
  * @author AlefZet
  */
 $messages['kk-arab'] = array(
@@ -593,13 +593,13 @@ $messages['kk-arab'] = array(
 	'languageselector-setlang' => 'انىقتاۋ',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
 $messages['kk-cyrl'] = array(
 	'languageselector' => 'Тіл',
 	'languageselector-setlang' => 'анықтау',
 );
 
-/** Kazakh (Latin script) (‪qazaqşa (latın)‬) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎) */
 $messages['kk-latn'] = array(
 	'languageselector' => 'Til',
 	'languageselector-setlang' => 'anıqtaw',
@@ -648,7 +648,7 @@ $messages['ksh'] = array(
 	'languageselector-setlang' => 'Setze',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -780,7 +780,7 @@ $messages['nah'] = array(
 	'languageselector' => 'Tlâtòlli',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'languageselector' => 'Språk',
 	'languageselector-desc' => 'Valg av språk på alle sider, også for gjester',
@@ -813,7 +813,7 @@ $messages['nl'] = array(
 	'languageselector-setlang' => 'instellen',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -1026,7 +1026,7 @@ $messages['sli'] = array(
 	'languageselector-setlang' => 'setza',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1036,7 +1036,7 @@ $messages['sr-ec'] = array(
 	'languageselector-setlang' => 'постави',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1255,7 +1255,7 @@ $messages['yue'] = array(
 	'languageselector-setlang' => '設',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author PhiLiP
  * @author Shinjiman
  */
@@ -1265,7 +1265,7 @@ $messages['zh-hans'] = array(
 	'languageselector-setlang' => '设置',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
