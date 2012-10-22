@@ -31,20 +31,6 @@ $messages['qqq'] = array(
 	'languageselector-setlang' => 'Part of the "LanguageSelector" extension. This is the text of a submit button to select your user interface language. Mostly the button  is not shown, but sometimes it appears next to the language selector (a dropdown box like in your [[Special:Preferences|user preferences]]).',
 );
 
-/** Goan Konkani (Latin script) (Konknni)
- * @author The Discoverer
- */
-$messages['gom-latn'] = array(
-	'languageselector' => 'Bhas',
-);
-
-/** Turoyo (Ṫuroyo)
- * @author Ariyo
- */
-$messages['tru'] = array(
-	'languageselector' => 'Leşono',
-);
-
 /** Abkhazian (Аҧсшәа)
  * @author Temuri rajavi
  */
@@ -433,6 +419,13 @@ $messages['gl'] = array(
 	'languageselector-setlang' => 'elixir',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'languageselector' => 'Bhas',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
  * @author Omnipaedista
@@ -542,7 +535,8 @@ $messages['io'] = array(
 	'languageselector-setlang' => 'establisar',
 );
 
-/** Icelandic (íslenska) */
+/** Icelandic (íslenska)
+ */
 $messages['is'] = array(
 	'languageselector' => 'Tungumál',
 );
@@ -593,13 +587,15 @@ $messages['kk-arab'] = array(
 	'languageselector-setlang' => 'انىقتاۋ',
 );
 
-/** Kazakh (Cyrillic script) (қазақша (кирил)‎) */
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ */
 $messages['kk-cyrl'] = array(
 	'languageselector' => 'Тіл',
 	'languageselector-setlang' => 'анықтау',
 );
 
-/** Kazakh (Latin script) (qazaqşa (latın)‎) */
+/** Kazakh (Latin script) (qazaqşa (latın)‎)
+ */
 $messages['kk-latn'] = array(
 	'languageselector' => 'Til',
 	'languageselector-setlang' => 'anıqtaw',
@@ -780,7 +776,8 @@ $messages['nah'] = array(
 	'languageselector' => 'Tlâtòlli',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'languageselector' => 'Språk',
 	'languageselector-desc' => 'Valg av språk på alle sider, også for gjester',
@@ -907,9 +904,9 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
- * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
+ * @author 555
  */
 $messages['pt'] = array(
 	'languageselector' => 'Língua',
@@ -1156,6 +1153,13 @@ $messages['tr'] = array(
 	'languageselector-setlang' => 'ayar',
 );
 
+/** Turoyo (Ṫuroyo)
+ * @author Ariyo
+ */
+$messages['tru'] = array(
+	'languageselector' => 'Leşono',
+);
+
 /** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  */
@@ -1275,4 +1279,3 @@ $messages['zh-hant'] = array(
 	'languageselector-desc' => '在每一頁面上加入語言選擇項，對匿名訪問者亦有效',
 	'languageselector-setlang' => '設定',
 );
-
