@@ -22,12 +22,13 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
  * @author SPQRobin
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
 	'languageselector' => 'Part of the "LanguageSelector" extension. You can see it when the wiki administrator has chosen for a language selector in the sidebar, so this message would be the title, like you have "navigation", "search" and "toolbox".
 
 {{Identical|Language}}',
-	'languageselector-desc' => '{{desc}}',
+	'languageselector-desc' => '{{desc|name=Language Selector|url=http://www.mediawiki.org/wiki/Extension:LanguageSelector}}',
 	'languageselector-setlang' => 'Part of the "LanguageSelector" extension. This is the text of a submit button to select your user interface language. Mostly the button  is not shown, but sometimes it appears next to the language selector (a dropdown box like in your [[Special:Preferences|user preferences]]).',
 );
 
