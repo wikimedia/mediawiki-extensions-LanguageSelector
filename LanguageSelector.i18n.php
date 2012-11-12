@@ -528,6 +528,15 @@ $messages['id'] = array(
 	'languageselector-setlang' => 'set',
 );
 
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'languageselector' => 'Pagsasao',
+	'languageselector-desc' => 'Pagpilian ti pagsasao iti amin a panid, para kadagiti pay agbisbisita',
+	'languageselector-setlang' => 'ikabil',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
