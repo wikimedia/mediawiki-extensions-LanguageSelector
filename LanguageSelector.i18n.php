@@ -499,6 +499,14 @@ $messages['hsb'] = array(
 	'languageselector-setlang' => 'stajić',
 );
 
+/** 湘语 (湘语)
+ * @author YulouCN
+ */
+$messages['hsn'] = array(
+	'languageselector' => '言语',
+	'languageselector-setlang' => '設',
+);
+
 /** Hungarian (magyar)
  * @author Dani
  * @author Dorgan
