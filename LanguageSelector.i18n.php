@@ -119,6 +119,13 @@ $messages['az'] = array(
 	'languageselector-setlang' => 'Seç',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author Ebrahimi-amir
+ */
+$messages['azb'] = array(
+	'languageselector' => 'دیل',
+);
+
 /** Bashkir (башҡортса)
  * @author Assele
  * @author Рустам Нурыев
