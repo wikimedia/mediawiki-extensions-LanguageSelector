@@ -960,10 +960,12 @@ $messages['qu'] = array(
 );
 
 /** Romanian (română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'languageselector' => 'Limbă',
+	'languageselector-setlang' => 'definire',
 );
 
 /** tarandíne (tarandíne)
