@@ -1202,6 +1202,14 @@ $messages['tyv'] = array(
 	'languageselector' => 'Дыл',
 );
 
+/** Uyghur (Arabic script) (ئۇيغۇرچە)
+ * @author Sahran
+ */
+$messages['ug-arab'] = array(
+	'languageselector' => 'تىل',
+	'languageselector-setlang' => 'تەڭشەك',
+);
+
 /** Uyghur (Latin script) (Uyghurche)
  * @author Jose77
  */
