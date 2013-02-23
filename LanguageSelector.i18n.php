@@ -734,6 +734,15 @@ $messages['ltg'] = array(
 	'languageselector-setlang' => 'nūstateit',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'languageselector' => 'Bahaso',
+	'languageselector-desc' => 'Manambahkan piliahan bahaso di satiok laman, sarato untuak pangunjuang',
+	'languageselector-setlang' => 'set',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
