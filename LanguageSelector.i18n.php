@@ -408,6 +408,13 @@ $messages['frp'] = array(
 	'languageselector-setlang' => 'Dèfenir',
 );
 
+/** Friulian (furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'languageselector' => 'Lenghe',
+);
+
 /** Scottish Gaelic (Gàidhlig)
  * @author Akerbeltz
  */
