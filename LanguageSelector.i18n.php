@@ -413,6 +413,8 @@ $messages['frp'] = array(
  */
 $messages['fur'] = array(
 	'languageselector' => 'Lenghe',
+	'languageselector-desc' => 'Seletôr de lenghe su ogni pagjine, ancje pai visitadôrs anonims',
+	'languageselector-setlang' => 'impueste',
 );
 
 /** Scottish Gaelic (Gàidhlig)
