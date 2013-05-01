@@ -948,13 +948,14 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Hamilton Abreu
+ * @author Luckas
  * @author Malafaya
  * @author 555
  */
 $messages['pt'] = array(
 	'languageselector' => 'Língua',
 	'languageselector-desc' => 'Selector de língua em todas as páginas, também para visitantes',
-	'languageselector-setlang' => 'seleccionar',
+	'languageselector-setlang' => 'selecionar',
 );
 
 /** Brazilian Portuguese (português do Brasil)
