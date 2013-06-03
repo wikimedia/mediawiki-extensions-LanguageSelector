@@ -826,7 +826,7 @@ $messages['nah'] = array(
 	'languageselector' => 'Tlâtòlli',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'languageselector' => 'Språk',
@@ -860,7 +860,7 @@ $messages['nl'] = array(
 	'languageselector-setlang' => 'instellen',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Jon Harald Søby
  * @author Njardarlogar
@@ -887,7 +887,7 @@ $messages['oc'] = array(
 	'languageselector-setlang' => 'Definir',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
  */
 $messages['or'] = array(
