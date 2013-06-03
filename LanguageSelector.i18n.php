@@ -224,6 +224,13 @@ $messages['ca'] = array(
 	'languageselector-setlang' => 'selecciona',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'languageselector' => 'Мотт',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Marmzok
  * @author رزگار
