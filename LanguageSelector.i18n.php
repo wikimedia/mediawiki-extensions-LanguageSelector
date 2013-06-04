@@ -1310,6 +1310,8 @@ $messages['wa'] = array(
  */
 $messages['yi'] = array(
 	'languageselector' => 'שפראַך',
+	'languageselector-desc' => 'שפראך אויסקלייב אויף אלע בלעטער, אויך פאר באזוכער',
+	'languageselector-setlang' => 'שטעלן',
 );
 
 /** Cantonese (粵語)
