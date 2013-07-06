@@ -905,9 +905,11 @@ $messages['os'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ)
  * @author Aalam
+ * @author Babanwalia
  */
 $messages['pa'] = array(
 	'languageselector' => 'ਭਾਸ਼ਾ:',
+	'languageselector-desc' => "ਹਰੇਕ ਸਫ਼ੇ 'ਤੇ ਭਾਸ਼ਾ ਚੋਣਕਾਰ, ਪ੍ਰਾਹੁਣਿਆਂ ਲਈ ਵੀ",
 	'languageselector-setlang' => 'ਸੈੱਟ ਕਰੋ',
 );
 
