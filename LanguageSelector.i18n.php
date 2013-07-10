@@ -263,7 +263,7 @@ $messages['csb'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'languageselector' => 'ѩꙁꙑ́къ',
+	'languageselector' => 'ѩꙁꙑкъ',
 );
 
 /** Welsh (Cymraeg)
