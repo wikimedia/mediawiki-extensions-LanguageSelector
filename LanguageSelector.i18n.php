@@ -469,6 +469,15 @@ $messages['gsw'] = array(
 	'languageselector-setlang' => 'setze',
 );
 
+/** Gujarati (ગુજરાતી)
+ * @author KartikMistry
+ */
+$messages['gu'] = array(
+	'languageselector' => 'ભાષા',
+	'languageselector-desc' => 'ભાષા પસંદગી બધાં પાનાં પર, મુલાકાતીઓ માટે પણ',
+	'languageselector-setlang' => 'ગોઠવો',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
