@@ -678,10 +678,11 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
 	'languageselector' => '언어',
-	'languageselector-desc' => '방문자에게도 모든 문서에 언어 선택기를 추가',
+	'languageselector-desc' => '방문자에게도 선택할 수 있는, 모든 문서의 언어 선택기',
 	'languageselector-setlang' => '설정',
 );
 
