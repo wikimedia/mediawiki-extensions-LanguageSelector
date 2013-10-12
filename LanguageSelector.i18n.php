@@ -448,6 +448,8 @@ $messages['gl'] = array(
  */
 $messages['gom-latn'] = array(
 	'languageselector' => 'Bhas',
+	'languageselector-desc' => 'Dor panacher bhas nivdunk, visitorank-ui',
+	'languageselector-setlang' => 'dovor',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
