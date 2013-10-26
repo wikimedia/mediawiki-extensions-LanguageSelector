@@ -800,11 +800,12 @@ $messages['mn'] = array(
 /** Marathi (मराठी)
  * @author Kaustubh
  * @author Mahitgar
+ * @author V.narsikar
  */
 $messages['mr'] = array(
 	'languageselector' => 'भाषा',
 	'languageselector-desc' => 'प्रत्येक पानावर भाषा-निवडक (selector), भेट देणार्‍यांसाठी सुद्धा',
-	'languageselector-setlang' => 'सेट (set)',
+	'languageselector-setlang' => 'संच (set)',
 );
 
 /** Malay (Bahasa Melayu)
