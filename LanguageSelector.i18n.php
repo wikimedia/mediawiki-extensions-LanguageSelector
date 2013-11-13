@@ -362,10 +362,11 @@ $messages['et'] = array(
 
 /** Basque (euskara)
  * @author Theklan
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
 	'languageselector' => 'Hizkuntza',
-	'languageselector-desc' => 'Orrialde guztietako hizkuntza aukeraketa, baita bisitarientzat ere',
+	'languageselector-desc' => 'Orri guztietan hizkuntza aukeratzeko, baita bisitarientzat ere',
 	'languageselector-setlang' => 'ezarri',
 );
 
