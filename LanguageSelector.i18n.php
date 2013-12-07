@@ -241,7 +241,7 @@ $messages['ckb'] = array(
 	'languageselector-setlang' => 'داینێ',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -259,7 +259,7 @@ $messages['csb'] = array(
 	'languageselector-setlang' => 'nastôwi',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
