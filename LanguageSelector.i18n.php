@@ -100,6 +100,15 @@ $messages['arz'] = array(
 	'languageselector-setlang' => 'ضبط',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Gitartha.bordoloi
+ */
+$messages['as'] = array(
+	'languageselector' => 'ভাষা',
+	'languageselector-desc' => 'প্ৰতি পৃষ্ঠাতে ভাষা নিৰ্বাচক, পঢ়ুৱৈৰ বাবেও',
+	'languageselector-setlang' => 'স্থাপন কৰক',
+);
+
 /** Asturian (asturianu)
  * @author Esbardu
  */
