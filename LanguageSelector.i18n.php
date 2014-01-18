@@ -650,9 +650,11 @@ $messages['kk-arab'] = array(
 );
 
 /** Kazakh (Cyrillic script) (қазақша (кирил)‎)
+ * @author Arystanbek
  */
 $messages['kk-cyrl'] = array(
 	'languageselector' => 'Тіл',
+	'languageselector-desc' => 'Келушілерге тіл таңдаушы әрбір бетке',
 	'languageselector-setlang' => 'анықтау',
 );
 
