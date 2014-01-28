@@ -774,6 +774,15 @@ $messages['ltg'] = array(
 	'languageselector-setlang' => 'nūstateit',
 );
 
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'languageselector' => 'Valoda',
+	'languageselector-desc' => 'Valodas izvēle katrā lapā, arī apmeklētājiem',
+	'languageselector-setlang' => 'uzstādīt',
+);
+
 /** Minangkabau (Baso Minangkabau)
  * @author Iwan Novirion
  */
