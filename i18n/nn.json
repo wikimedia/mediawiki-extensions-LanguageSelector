@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Harald Khan",
+            "Jon Harald Søby",
+            "Njardarlogar"
+        ]
+    },
+    "languageselector": "Språk",
+    "languageselector-desc": "Spåkveljar på kvar sida, òg for gjester",
+    "languageselector-setlang": "set"
+}

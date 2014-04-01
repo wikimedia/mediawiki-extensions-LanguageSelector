@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Candalua"
+        ]
+    },
+    "languageselector": "Lengua",
+    "languageselector-desc": "Un seletor de la lengua su tute le pagine, anca par i visitatori",
+    "languageselector-setlang": "selessiona"
+}

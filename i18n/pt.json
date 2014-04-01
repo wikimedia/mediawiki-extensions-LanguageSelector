@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+            "Hamilton Abreu",
+            "Luckas",
+            "Malafaya",
+            "555"
+        ]
+    },
+    "languageselector": "Língua",
+    "languageselector-desc": "Selector de língua em todas as páginas, também para visitantes",
+    "languageselector-setlang": "selecionar"
+}

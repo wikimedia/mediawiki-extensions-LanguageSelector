@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Minh Nguyen"
+        ]
+    },
+    "languageselector": "Ngôn ngữ",
+    "languageselector-desc": "Hộp để chọn ngôn ngữ ở các trang, cũng được cung cấp cho những người vô danh",
+    "languageselector-setlang": "đổi"
+}

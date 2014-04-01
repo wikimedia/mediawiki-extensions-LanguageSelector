@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Bertrand GRONDIN"
+        ]
+    },
+    "languageselector": "Langue",
+    "languageselector-desc": "Sélecteur de langue sur chaque page, même pour les visiteurs.",
+    "languageselector-setlang": "Définir"
+}

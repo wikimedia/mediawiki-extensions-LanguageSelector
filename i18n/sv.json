@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lejonel",
+            "M.M.S."
+        ]
+    },
+    "languageselector": "Språk",
+    "languageselector-desc": "Språkväljare på varje sida, också för besökare",
+    "languageselector-setlang": "välj"
+}

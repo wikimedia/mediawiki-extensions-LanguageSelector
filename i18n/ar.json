@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Meno25"
+        ]
+    },
+    "languageselector": "اللغة",
+    "languageselector-desc": "اختيار اللغة في كل صفحة، أيضا للزائرين",
+    "languageselector-setlang": "ضبط"
+}

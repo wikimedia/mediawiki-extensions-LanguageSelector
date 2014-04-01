@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kaustubh",
+            "Mahitgar",
+            "V.narsikar"
+        ]
+    },
+    "languageselector": "भाषा",
+    "languageselector-desc": "प्रत्येक पानावर भाषा-निवडक (selector), भेट देणार्‍यांसाठी सुद्धा",
+    "languageselector-setlang": "संच (set)"
+}

@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kwj2772",
+            "아라"
+        ]
+    },
+    "languageselector": "언어",
+    "languageselector-desc": "방문자에게도 선택할 수 있는, 모든 문서의 언어 선택기",
+    "languageselector-setlang": "설정"
+}

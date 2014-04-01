@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "PhiLiP",
+            "Shinjiman"
+        ]
+    },
+    "languageselector": "语言",
+    "languageselector-desc": "在每一页面上添加语言选择项，对匿名访问者亦有效",
+    "languageselector-setlang": "设置"
+}

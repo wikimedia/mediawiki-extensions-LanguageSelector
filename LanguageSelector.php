@@ -90,6 +90,7 @@ $wgResourceModules['ext.languageSelector'] = array(
 );
 
 $dir = __DIR__ . '/';
+$wgMessagesDirs['LanguageSelector'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['LanguageSelector'] = $dir . 'LanguageSelector.i18n.php';
 $wgJSAutoloadClasses['LanguageSelector'] = 'extensions/LanguageSelector/LanguageSelector.js';
 

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Matěj Grabovský"
+        ]
+    },
+    "languageselector": "Jazyk",
+    "languageselector-desc": "Výběr jazyka na každé straně, také pro návštěvníky",
+    "languageselector-setlang": "nastavit"
+}

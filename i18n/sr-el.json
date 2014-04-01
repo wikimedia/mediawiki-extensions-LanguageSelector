@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Michaello"
+        ]
+    },
+    "languageselector": "Jezik",
+    "languageselector-desc": "Izbirač jezika na svakom jeziku, i takođe za posetioce",
+    "languageselector-setlang": "postavi"
+}

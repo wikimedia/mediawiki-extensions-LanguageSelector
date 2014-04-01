@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Ex13"
+        ]
+    },
+    "languageselector": "Jezik",
+    "languageselector-desc": "Jezični izbornik na svakoj stranici, također i za posjetitelje",
+    "languageselector-setlang": "postavi"
+}

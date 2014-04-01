@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Jon Harald Søby",
+            "Peter Alberti"
+        ]
+    },
+    "languageselector": "Sprog",
+    "languageselector-desc": "Sprogvælger på alle sider, også for gæster",
+    "languageselector-setlang": "vælg"
+}

@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Lloffiwr"
+        ]
+    },
+    "languageselector": "Iaith",
+    "languageselector-desc": "Yn gosod botwm dewis iaith ar bob tudalen, sydd ar gael i ymwelwyr hefyd",
+    "languageselector-setlang": "gosod"
+}

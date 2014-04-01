@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Theklan",
+            "Xabier Armendaritz"
+        ]
+    },
+    "languageselector": "Hizkuntza",
+    "languageselector-desc": "Orri guztietan hizkuntza aukeratzeko, baita bisitarientzat ere",
+    "languageselector-setlang": "ezarri"
+}

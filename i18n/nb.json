@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "languageselector": "Språk",
+    "languageselector-desc": "Valg av språk på alle sider, også for gjester",
+    "languageselector-setlang": "sett"
+}

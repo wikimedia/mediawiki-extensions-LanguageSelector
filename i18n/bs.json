@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "CERminator"
+        ]
+    },
+    "languageselector": "Jezik",
+    "languageselector-desc": "Odabir jezika na svakoj stranici, također i za posjetioce",
+    "languageselector-setlang": "postavi"
+}

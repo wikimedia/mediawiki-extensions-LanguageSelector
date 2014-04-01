@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Esbardu"
+        ]
+    },
+    "languageselector": "Llingua",
+    "languageselector-desc": "Selector de llingua en cada páxina, tamién pa visitantes",
+    "languageselector-setlang": "establecer"
+}

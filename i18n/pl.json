@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "McMonster",
+            "Wpedzich"
+        ]
+    },
+    "languageselector": "Język",
+    "languageselector-desc": "Wybór języka dla każdej strony, również dla osób odwiedzających",
+    "languageselector-setlang": "ustaw"
+}

@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Huji",
+            "Vahid"
+        ]
+    },
+    "languageselector": "زبان",
+    "languageselector-desc": "انتخاب کنندهٔ زبان در همهٔ صفحه‌ها باشد، و نیز برای مشاهده کنندگان",
+    "languageselector-setlang": "اعمال"
+}

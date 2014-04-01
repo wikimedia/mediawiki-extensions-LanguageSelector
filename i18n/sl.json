@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Dbc334",
+            "Smihael"
+        ]
+    },
+    "languageselector": "Jezik",
+    "languageselector-desc": "Izbirnik jezika na vsaki strani, tudi za obiskovalce",
+    "languageselector-setlang": "določi"
+}
