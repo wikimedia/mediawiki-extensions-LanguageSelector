@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Joseph",
-            "Karduelis"
-        ]
-    },
-    "languageselector": "Dil",
-    "languageselector-desc": "Her sayfada dil seçicisi, aynı zamanda ziyaretçiler için",
-    "languageselector-setlang": "ayar"
+	"@metadata": {
+		"authors": [
+			"Joseph",
+			"Karduelis"
+		]
+	},
+	"languageselector": "Dil",
+	"languageselector-desc": "Her sayfada dil seçicisi, aynı zamanda ziyaretçiler için",
+	"languageselector-setlang": "ayar"
 }

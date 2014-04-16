@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jnanaranjan Sahu"
-        ]
-    },
-    "languageselector": "ଭାଷା",
-    "languageselector-desc": "ଭାଷା ଚୟନକାରୀ ସବୁ ପୃଷ୍ଠାରେ, ଅତିଥି ମାନଙ୍କ ପାଇଁ ମଧ୍ୟ",
-    "languageselector-setlang": "ସେଟ କରନ୍ତୁ"
+	"@metadata": {
+		"authors": [
+			"Jnanaranjan Sahu"
+		]
+	},
+	"languageselector": "ଭାଷା",
+	"languageselector-desc": "ଭାଷା ଚୟନକାରୀ ସବୁ ପୃଷ୍ଠାରେ, ଅତିଥି ମାନଙ୍କ ପାଇଁ ମଧ୍ୟ",
+	"languageselector-setlang": "ସେଟ କରନ୍ତୁ"
 }

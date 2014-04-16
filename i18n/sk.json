@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Helix84"
-        ]
-    },
-    "languageselector": "Jazyk",
-    "languageselector-desc": "Výber jazyka na každej stránke, aj pre návštevníkov",
-    "languageselector-setlang": "nastaviť"
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"languageselector": "Jazyk",
+	"languageselector-desc": "Výber jazyka na každej stránke, aj pre návštevníkov",
+	"languageselector-setlang": "nastaviť"
 }

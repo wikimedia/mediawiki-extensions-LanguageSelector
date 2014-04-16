@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bellayet"
-        ]
-    },
-    "languageselector": "ভাষা",
-    "languageselector-desc": "প্রতি পাতায় ভাষা নির্বাচক, পরিদর্শকের জন্যেও",
-    "languageselector-setlang": "স্থাপন"
+	"@metadata": {
+		"authors": [
+			"Bellayet"
+		]
+	},
+	"languageselector": "ভাষা",
+	"languageselector-desc": "প্রতি পাতায় ভাষা নির্বাচক, পরিদর্শকের জন্যেও",
+	"languageselector-setlang": "স্থাপন"
 }

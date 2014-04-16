@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Purodha"
-        ]
-    },
-    "languageselector": "Schprooch",
-    "languageselector-desc": "Shprooche-Wahl op jede Sigk, och för namelose Metmaacher, un oohne Aanmëllde.",
-    "languageselector-setlang": "Setze"
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"languageselector": "Schprooch",
+	"languageselector-desc": "Shprooche-Wahl op jede Sigk, och för namelose Metmaacher, un oohne Aanmëllde.",
+	"languageselector-setlang": "Setze"
 }

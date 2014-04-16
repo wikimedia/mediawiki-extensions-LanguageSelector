@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Alma",
-            "Toliño"
-        ]
-    },
-    "languageselector": "Lingua",
-    "languageselector-desc": "Seleccionador da lingua en todas as páxinas, tamén para os visitantes",
-    "languageselector-setlang": "elixir"
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Toliño"
+		]
+	},
+	"languageselector": "Lingua",
+	"languageselector-desc": "Seleccionador da lingua en todas as páxinas, tamén para os visitantes",
+	"languageselector-setlang": "elixir"
 }

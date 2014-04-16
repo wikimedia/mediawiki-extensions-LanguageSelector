@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "JtFuruhata"
-        ]
-    },
-    "languageselector": "言語選択",
-    "languageselector-desc": "ログイン状況を問わず利用できる、各ページの言語選択機能",
-    "languageselector-setlang": "設定"
+	"@metadata": {
+		"authors": [
+			"JtFuruhata"
+		]
+	},
+	"languageselector": "言語選択",
+	"languageselector-desc": "ログイン状況を問わず利用できる、各ページの言語選択機能",
+	"languageselector-setlang": "設定"
 }

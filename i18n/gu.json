@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "KartikMistry"
-        ]
-    },
-    "languageselector": "ભાષા",
-    "languageselector-desc": "ભાષા પસંદગી બધાં પાનાં પર, મુલાકાતીઓ માટે પણ",
-    "languageselector-setlang": "ગોઠવો"
+	"@metadata": {
+		"authors": [
+			"KartikMistry"
+		]
+	},
+	"languageselector": "ભાષા",
+	"languageselector-desc": "ભાષા પસંદગી બધાં પાનાં પર, મુલાકાતીઓ માટે પણ",
+	"languageselector-setlang": "ગોઠવો"
 }

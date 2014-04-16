@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sasa Stefanovic",
-            "Михајло Анђелковић"
-        ]
-    },
-    "languageselector": "Језик",
-    "languageselector-desc": "Избирач језика на сваком језику, и такође за посетиоце",
-    "languageselector-setlang": "постави"
+	"@metadata": {
+		"authors": [
+			"Sasa Stefanovic",
+			"Михајло Анђелковић"
+		]
+	},
+	"languageselector": "Језик",
+	"languageselector-desc": "Избирач језика на сваком језику, и такође за посетиоце",
+	"languageselector-setlang": "постави"
 }

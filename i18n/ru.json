@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaganer",
-            "Александр Сигачёв"
-        ]
-    },
-    "languageselector": "Язык",
-    "languageselector-desc": "Выбор языка на каждой странице, доступный также и для посетителей",
-    "languageselector-setlang": "установить"
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"Александр Сигачёв"
+		]
+	},
+	"languageselector": "Язык",
+	"languageselector-desc": "Выбор языка на каждой странице, доступный также и для посетителей",
+	"languageselector-setlang": "установить"
 }

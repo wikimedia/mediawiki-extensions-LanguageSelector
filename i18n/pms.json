@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dragonòt"
-        ]
-    },
-    "languageselector": "Lenga",
-    "languageselector-desc": "Seletor ëd la lenga an dzora a mincadun-a pàgina, ëdcò për ij visitador",
-    "languageselector-setlang": "Ampòsta"
+	"@metadata": {
+		"authors": [
+			"Dragonòt"
+		]
+	},
+	"languageselector": "Lenga",
+	"languageselector-desc": "Seletor ëd la lenga an dzora a mincadun-a pàgina, ëdcò për ij visitador",
+	"languageselector-setlang": "Ampòsta"
 }

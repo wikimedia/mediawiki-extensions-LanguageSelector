@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Praveenp",
-            "Shijualex"
-        ]
-    },
-    "languageselector": "ഭാഷ",
-    "languageselector-desc": "സന്ദർശകർക്കുൾപ്പെടെ എല്ലാവർക്കും എല്ലാ താളിലും ഭാഷ തിരഞ്ഞെടുക്കൽ സൗകര്യം",
-    "languageselector-setlang": "സജ്ജീകരിക്കുക"
+	"@metadata": {
+		"authors": [
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"languageselector": "ഭാഷ",
+	"languageselector-desc": "സന്ദർശകർക്കുൾപ്പെടെ എല്ലാവർക്കും എല്ലാ താളിലും ഭാഷ തിരഞ്ഞെടുക്കൽ സൗകര്യം",
+	"languageselector-setlang": "സജ്ജീകരിക്കുക"
 }

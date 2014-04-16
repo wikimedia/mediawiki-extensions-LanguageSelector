@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Gazeb"
-        ]
-    },
-    "languageselector": "Язык",
-    "languageselector-desc": "Выбер языка на каждій сторінцї і тыж про навщівників",
-    "languageselector-setlang": "становити"
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"languageselector": "Язык",
+	"languageselector-desc": "Выбер языка на каждій сторінцї і тыж про навщівників",
+	"languageselector-setlang": "становити"
 }

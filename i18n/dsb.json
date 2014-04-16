@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "languageselector": "Rěc",
-    "languageselector-desc": "Wuběrk rěcy na kuždem boku, teke za wobglědarjow",
-    "languageselector-setlang": "stajiś"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"languageselector": "Rěc",
+	"languageselector-desc": "Wuběrk rěcy na kuždem boku, teke za wobglědarjow",
+	"languageselector-setlang": "stajiś"
 }

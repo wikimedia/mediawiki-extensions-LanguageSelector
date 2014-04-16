@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Crt",
-            "Nike"
-        ]
-    },
-    "languageselector": "Kieli",
-    "languageselector-desc": "Kielen valinta jokaisella sivulla, myös vierailijoille.",
-    "languageselector-setlang": "aseta"
+	"@metadata": {
+		"authors": [
+			"Crt",
+			"Nike"
+		]
+	},
+	"languageselector": "Kieli",
+	"languageselector-desc": "Kielen valinta jokaisella sivulla, myös vierailijoille.",
+	"languageselector-setlang": "aseta"
 }

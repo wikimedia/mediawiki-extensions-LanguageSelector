@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Sanbec"
-        ]
-    },
-    "languageselector": "Idioma",
-    "languageselector-desc": "Selector de idioma en cada página, incluso para visitantes",
-    "languageselector-setlang": "selecciona"
+	"@metadata": {
+		"authors": [
+			"Sanbec"
+		]
+	},
+	"languageselector": "Idioma",
+	"languageselector-desc": "Selector de idioma en cada página, incluso para visitantes",
+	"languageselector-setlang": "selecciona"
 }

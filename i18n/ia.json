@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Malafaya",
-            "McDutchie"
-        ]
-    },
-    "languageselector": "Lingua",
-    "languageselector-desc": "Selector de lingua in omne pagina, etiam pro visitatores",
-    "languageselector-setlang": "seliger"
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"McDutchie"
+		]
+	},
+	"languageselector": "Lingua",
+	"languageselector-desc": "Selector de lingua in omne pagina, etiam pro visitatores",
+	"languageselector-setlang": "seliger"
 }

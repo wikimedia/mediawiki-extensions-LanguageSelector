@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Marmzok",
-            "رزگار"
-        ]
-    },
-    "languageselector": "زمان",
-    "languageselector-desc": "ھەڵبژێری زمان لە ھەموو پەڕەکان، ھەروەھا بۆ بینەران",
-    "languageselector-setlang": "داینێ"
+	"@metadata": {
+		"authors": [
+			"Marmzok",
+			"رزگار"
+		]
+	},
+	"languageselector": "زمان",
+	"languageselector-desc": "ھەڵبژێری زمان لە ھەموو پەڕەکان، ھەروەھا بۆ بینەران",
+	"languageselector-setlang": "داینێ"
 }

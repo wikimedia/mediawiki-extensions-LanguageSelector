@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaustubh"
-        ]
-    },
-    "languageselector": "भाषा",
-    "languageselector-desc": "हर पन्नेपर भाषा-सिलेक्टर, भेंट देनेवालोंके लिये भी",
-    "languageselector-setlang": "सैट करें"
+	"@metadata": {
+		"authors": [
+			"Kaustubh"
+		]
+	},
+	"languageselector": "भाषा",
+	"languageselector-desc": "हर पन्नेपर भाषा-सिलेक्टर, भेंट देनेवालोंके लिये भी",
+	"languageselector-setlang": "सैट करें"
 }

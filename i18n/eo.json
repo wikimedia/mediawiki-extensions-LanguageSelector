@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Yekrats"
-        ]
-    },
-    "languageselector": "Lingvo",
-    "languageselector-desc": "Lingvo-selektilo en ĉiuj paĝo, ankaŭ por vizitantoj",
-    "languageselector-setlang": "fari"
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"languageselector": "Lingvo",
+	"languageselector-desc": "Lingvo-selektilo en ĉiuj paĝo, ankaŭ por vizitantoj",
+	"languageselector-setlang": "fari"
 }

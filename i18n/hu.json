@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Dani",
-            "Dorgan"
-        ]
-    },
-    "languageselector": "Nyelv",
-    "languageselector-desc": "Nyelvválasztó minden lapon, látogatók számára is",
-    "languageselector-setlang": "beállítás"
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dorgan"
+		]
+	},
+	"languageselector": "Nyelv",
+	"languageselector-desc": "Nyelvválasztó minden lapon, látogatók számára is",
+	"languageselector-setlang": "beállítás"
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "David1010",
-            "Temuri rajavi"
-        ]
-    },
-    "languageselector": "ენა",
-    "languageselector-setlang": "დაყენება"
+	"@metadata": {
+		"authors": [
+			"David1010",
+			"Temuri rajavi"
+		]
+	},
+	"languageselector": "ენა",
+	"languageselector-setlang": "დაყენება"
 }

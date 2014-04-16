@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kizito"
-        ]
-    },
-    "languageselector": "Lulimi",
-    "languageselector-desc": "Buli alaba olupapula abe ng'asobola okwerondera lulimi mw'alusomera",
-    "languageselector-setlang": "lukakase"
+	"@metadata": {
+		"authors": [
+			"Kizito"
+		]
+	},
+	"languageselector": "Lulimi",
+	"languageselector-desc": "Buli alaba olupapula abe ng'asobola okwerondera lulimi mw'alusomera",
+	"languageselector-setlang": "lukakase"
 }

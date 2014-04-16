@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "languageselector": "Јазик",
-    "languageselector-desc": "Избирач на јазик на секоја страница, исто така за посетители",
-    "languageselector-setlang": "постави"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"languageselector": "Јазик",
+	"languageselector-desc": "Избирач на јазик на секоја страница, исто така за посетители",
+	"languageselector-setlang": "постави"
 }

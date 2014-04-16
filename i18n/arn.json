@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kaniw",
-            "Lin linao"
-        ]
-    },
-    "languageselector": "Cezugun",
-    "languageselector-desc": "Cezugun ñi zujipeyvm fijke aztapvl mew, keyv jajitufe",
-    "languageselector-setlang": "zujipe"
+	"@metadata": {
+		"authors": [
+			"Kaniw",
+			"Lin linao"
+		]
+	},
+	"languageselector": "Cezugun",
+	"languageselector-desc": "Cezugun ñi zujipeyvm fijke aztapvl mew, keyv jajitufe",
+	"languageselector-setlang": "zujipe"
 }

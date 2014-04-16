@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "AS",
-            "Prima klasy4na"
-        ]
-    },
-    "languageselector": "Мова",
-    "languageselector-desc": "Вибір мови на кожній сторінці, а також для відвідувачів",
-    "languageselector-setlang": "встановити"
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Prima klasy4na"
+		]
+	},
+	"languageselector": "Мова",
+	"languageselector-desc": "Вибір мови на кожній сторінці, а також для відвідувачів",
+	"languageselector-setlang": "встановити"
 }

@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Consta",
-            "Omnipaedista",
-            "ZaDiak"
-        ]
-    },
-    "languageselector": "Γλώσσα",
-    "languageselector-desc": "Επιλογέας γλώσσας σε κάθε σελίδα, το ίδιο και για τους επισκέπτες",
-    "languageselector-setlang": "ρύθμιση"
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Omnipaedista",
+			"ZaDiak"
+		]
+	},
+	"languageselector": "Γλώσσα",
+	"languageselector-desc": "Επιλογέας γλώσσας σε κάθε σελίδα, το ίδιο και για τους επισκέπτες",
+	"languageselector-setlang": "ρύθμιση"
 }

@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16",
-            "Darth Kule",
-            "Nemo bis"
-        ]
-    },
-    "languageselector": "Lingua",
-    "languageselector-desc": "Selettore della lingua in tutte le pagine, anche per i lettori",
-    "languageselector-setlang": "imposta"
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"Nemo bis"
+		]
+	},
+	"languageselector": "Lingua",
+	"languageselector-desc": "Selettore della lingua in tutte le pagine, anche per i lettori",
+	"languageselector-setlang": "imposta"
 }

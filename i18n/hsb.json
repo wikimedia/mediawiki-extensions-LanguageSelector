@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Michawiki"
-        ]
-    },
-    "languageselector": "Rěč",
-    "languageselector-desc": "Wuběr rěčow na kóždej stronje, tež za wopytowarjow",
-    "languageselector-setlang": "stajić"
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"languageselector": "Rěč",
+	"languageselector-desc": "Wuběr rěčow na kóždej stronje, tež za wopytowarjow",
+	"languageselector-setlang": "stajić"
 }

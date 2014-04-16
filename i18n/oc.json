@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "languageselector": "Lenga",
-    "languageselector-desc": "Selector de lenga sus cada pagina, quitament pels visitaires.",
-    "languageselector-setlang": "Definir"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"languageselector": "Lenga",
+	"languageselector-desc": "Selector de lenga sus cada pagina, quitament pels visitaires.",
+	"languageselector-setlang": "Definir"
 }

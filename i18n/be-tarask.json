@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jim-by",
-            "Red Winged Duck"
-        ]
-    },
-    "languageselector": "Мова",
-    "languageselector-desc": "Выбар мовы на кожнай старонцы, таксама і для наведвальнікаў",
-    "languageselector-setlang": "усталяваць"
+	"@metadata": {
+		"authors": [
+			"Jim-by",
+			"Red Winged Duck"
+		]
+	},
+	"languageselector": "Мова",
+	"languageselector-desc": "Выбар мовы на кожнай старонцы, таксама і для наведвальнікаў",
+	"languageselector-setlang": "усталяваць"
 }

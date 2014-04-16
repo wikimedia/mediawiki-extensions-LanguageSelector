@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Triple-ADHD-AS",
-            "Игорь Бродский"
-        ]
-    },
-    "languageselector": "Kel’",
-    "languageselector-desc": "Kelen valičend kaikuččen lehtpolen täht, mugažo adivoile-ki.",
-    "languageselector-setlang": "panda"
+	"@metadata": {
+		"authors": [
+			"Triple-ADHD-AS",
+			"Игорь Бродский"
+		]
+	},
+	"languageselector": "Kel’",
+	"languageselector-desc": "Kelen valičend kaikuččen lehtpolen täht, mugažo adivoile-ki.",
+	"languageselector-setlang": "panda"
 }

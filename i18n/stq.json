@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Pyt"
-        ]
-    },
-    "languageselector": "Sproake",
-    "languageselector-desc": "Sproakenuutwoal ap älke Siede, uk foar Besäikere",
-    "languageselector-setlang": "sätte"
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"languageselector": "Sproake",
+	"languageselector-desc": "Sproakenuutwoal ap älke Siede, uk foar Besäikere",
+	"languageselector-setlang": "sätte"
 }

@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Rex"
-        ]
-    },
-    "languageselector": "Bahasa",
-    "languageselector-desc": "Menambahkan pemilih bahasa di setiap halaman, juga untuk pengunjung",
-    "languageselector-setlang": "set"
+	"@metadata": {
+		"authors": [
+			"Rex"
+		]
+	},
+	"languageselector": "Bahasa",
+	"languageselector-desc": "Menambahkan pemilih bahasa di setiap halaman, juga untuk pengunjung",
+	"languageselector-setlang": "set"
 }

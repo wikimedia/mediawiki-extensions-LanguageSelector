@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Silvar"
-        ]
-    },
-    "languageselector": "Keel",
-    "languageselector-desc": "Keele valik kõikidele lehtedele, sama ka külastajatele",
-    "languageselector-setlang": "vali"
+	"@metadata": {
+		"authors": [
+			"Silvar"
+		]
+	},
+	"languageselector": "Keel",
+	"languageselector-desc": "Keele valik kõikidele lehtedele, sama ka külastajatele",
+	"languageselector-setlang": "vali"
 }

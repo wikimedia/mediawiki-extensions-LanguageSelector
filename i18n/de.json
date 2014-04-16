@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Als-Holder",
-            "Kghbln",
-            "Raimond Spekking"
-        ]
-    },
-    "languageselector": "Sprache",
-    "languageselector-desc": "Ermöglicht, auch für Besucher des Wikis, die Auswahl der Sprache auf jeder Seite",
-    "languageselector-setlang": "setzen"
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"Kghbln",
+			"Raimond Spekking"
+		]
+	},
+	"languageselector": "Sprache",
+	"languageselector-desc": "Ermöglicht, auch für Besucher des Wikis, die Auswahl der Sprache auf jeder Seite",
+	"languageselector-setlang": "setzen"
 }

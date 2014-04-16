@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jordi Roqué",
-            "SMP"
-        ]
-    },
-    "languageselector": "Idioma",
-    "languageselector-desc": "Selector d'idioma a cada pàgina (incloent visitants anònims)",
-    "languageselector-setlang": "selecciona"
+	"@metadata": {
+		"authors": [
+			"Jordi Roqué",
+			"SMP"
+		]
+	},
+	"languageselector": "Idioma",
+	"languageselector-desc": "Selector d'idioma a cada pàgina (incloent visitants anònims)",
+	"languageselector-setlang": "selecciona"
 }

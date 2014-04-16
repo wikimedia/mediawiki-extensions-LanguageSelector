@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Slomox"
-        ]
-    },
-    "languageselector": "Spraak",
-    "languageselector-setlang": "setten"
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"languageselector": "Spraak",
+	"languageselector-setlang": "setten"
 }

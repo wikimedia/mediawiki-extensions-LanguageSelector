@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Malafaya"
-        ]
-    },
-    "languageselector": "Linguo",
-    "languageselector-setlang": "establisar"
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"languageselector": "Linguo",
+	"languageselector-setlang": "establisar"
 }

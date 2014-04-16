@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Eduardo.mps",
-            "Giro720",
-            "MF-Warburg"
-        ]
-    },
-    "languageselector": "Língua",
-    "languageselector-desc": "Seletor de língua em todas as páginas, também para visitantes",
-    "languageselector-setlang": "selecionar"
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			"Giro720",
+			"MF-Warburg"
+		]
+	},
+	"languageselector": "Língua",
+	"languageselector-desc": "Seletor de língua em todas as páginas, também para visitantes",
+	"languageselector-setlang": "selecionar"
 }

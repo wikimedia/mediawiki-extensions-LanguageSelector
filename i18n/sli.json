@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jonny84",
-            "Piotron"
-        ]
-    },
-    "languageselector": "Sproache",
-    "languageselector-desc": "Sproachaauswoahl uff jeder Seite, au fier Besucher",
-    "languageselector-setlang": "setza"
+	"@metadata": {
+		"authors": [
+			"Jonny84",
+			"Piotron"
+		]
+	},
+	"languageselector": "Sproache",
+	"languageselector-desc": "Sproachaauswoahl uff jeder Seite, au fier Besucher",
+	"languageselector-setlang": "setza"
 }

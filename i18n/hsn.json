@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "YulouCN"
-        ]
-    },
-    "languageselector": "言语",
-    "languageselector-setlang": "設"
+	"@metadata": {
+		"authors": [
+			"YulouCN"
+		]
+	},
+	"languageselector": "言语",
+	"languageselector-setlang": "設"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Agbad",
-            "Rotemliss"
-        ]
-    },
-    "languageselector": "שפה",
-    "languageselector-desc": "אפשרות בחירת שפה בכל דף, גם למבקרים",
-    "languageselector-setlang": "בחירה"
+	"@metadata": {
+		"authors": [
+			"Agbad",
+			"Rotemliss"
+		]
+	},
+	"languageselector": "שפה",
+	"languageselector-desc": "אפשרות בחירת שפה בכל דף, גם למבקרים",
+	"languageselector-setlang": "בחירה"
 }

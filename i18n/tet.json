@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "MF-Warburg"
-        ]
-    },
-    "languageselector": "Lian",
-    "languageselector-desc": "Hili lian iha pájina hotu, mós ba vizitante",
-    "languageselector-setlang": "hili"
+	"@metadata": {
+		"authors": [
+			"MF-Warburg"
+		]
+	},
+	"languageselector": "Lian",
+	"languageselector-desc": "Hili lian iha pájina hotu, mós ba vizitante",
+	"languageselector-setlang": "hili"
 }

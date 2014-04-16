@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mdupont"
-        ]
-    },
-    "languageselector": "Gjuhë",
-    "languageselector-desc": "Gjuha seleksionues në çdo faqe, edhe për vizitorët",
-    "languageselector-setlang": "vendosur"
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"languageselector": "Gjuhë",
+	"languageselector-desc": "Gjuha seleksionues në çdo faqe, edhe për vizitorët",
+	"languageselector-setlang": "vendosur"
 }

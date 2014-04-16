@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shinjiman"
-        ]
-    },
-    "languageselector": "語言",
-    "languageselector-setlang": "設"
+	"@metadata": {
+		"authors": [
+			"Shinjiman"
+		]
+	},
+	"languageselector": "語言",
+	"languageselector-setlang": "設"
 }
