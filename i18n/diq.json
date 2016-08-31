@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Kumkumuk"
 		]
 	},
 	"languageselector": "Zıwan",
+	"languageselector-desc": "Her perer dı zıwan weçinox, fına qandé meymana no",
 	"languageselector-setlang": "saz"
 }
