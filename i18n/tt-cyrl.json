@@ -5,5 +5,6 @@
 		]
 	},
 	"languageselector": "Тел",
+	"languageselector-desc": "Барлык битләрдә дә тел сайлау мөмкинлеге, шулай ук кунаклар да файдалана ала",
 	"languageselector-setlang": "урнаштыру"
 }
