@@ -1,5 +1,9 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
 	"languageselector": "Språk",
 	"languageselector-desc": "Valg av språk på alle sider, også for gjester",
 	"languageselector-setlang": "sett"
