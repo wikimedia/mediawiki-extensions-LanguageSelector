@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Sasa Stefanovic",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Acamicamacaraca"
 		]
 	},
 	"languageselector": "Језик",
-	"languageselector-desc": "Избирач језика на сваком језику, и такође за посетиоце",
+	"languageselector-desc": "Бирач језика на свакој страници, такође и за посетиоце",
 	"languageselector-setlang": "постави"
 }
