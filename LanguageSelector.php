@@ -220,7 +220,9 @@ function wfLanguageSelectorBeforePageDisplay( &$out ) {
 
 	if ( $wgLanguageSelectorLocation == LANGUAGE_SELECTOR_AT_TOP_OF_TEXT ) {
 		$html = wfLanguageSelectorHTML( $out->getTitle() );
-		$out->mBodytext = $html . $out->mBodytext;
+		$out->setIndicators( [
+			'languageselector' => $html,
+		] );
 	}
 
 	$out->addModules( 'ext.languageSelector' );
