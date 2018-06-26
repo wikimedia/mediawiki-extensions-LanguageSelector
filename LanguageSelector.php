@@ -395,7 +395,7 @@ function wfLanguageSelectorHTML( Title $title, $style = null, $class = null, $se
 
 	foreach ( wfGetLanguageSelectorLanguages() as $ln ) {
 		$name = Language::fetchLanguageName( $ln );
-		if ( $showCode ) $name = wfBCP47( $ln ) . ' - ' . $name;
+		if ( $showCode ) $name = LanguageCode::bcp47( $ln ) . ' - ' . $name;
 
 		$html .= Xml::option( $name, $ln, $ln == $code );
 	}
