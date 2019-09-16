@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"languageselector": "Jezik",
+	"languageselector-desc": "Izbirač jezika na svakoj stranici, i takođe za posjetitelje",
+	"languageselector-setlang": "postavi"
+}
