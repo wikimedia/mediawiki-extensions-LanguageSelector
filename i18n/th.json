@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Passawuth"
+			"Passawuth",
+			"Aefgh39622"
 		]
 	},
-	"languageselector": "ภาษา"
+	"languageselector": "ภาษา",
+	"languageselector-desc": "แสดงเครื่องมือเลือกภาษาบนทุกหน้าสำหรับผู้เยี่ยมชมด้วย",
+	"languageselector-setlang": "ตั้งค่า"
 }
