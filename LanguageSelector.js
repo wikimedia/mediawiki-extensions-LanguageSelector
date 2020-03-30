@@ -1,19 +1,19 @@
-/*jshint -W083 */
-
-jQuery( function() {
+jQuery( function () {
 	var i = 1;
 	while ( true ) {
-		var btn = document.getElementById("languageselector-commit-"+i);
-		var sel = document.getElementById("languageselector-select-"+i);
-		var node;
+		var btn = document.getElementById( 'languageselector-commit-' + i ),
+			sel = document.getElementById( 'languageselector-select-' + i ),
+			node;
 
-		if (!btn) break;
+		if ( !btn ) {
+			break;
+		}
 
-		btn.style.display = "none";
-		sel.onchange = function() {
+		btn.style.display = 'none';
+		sel.onchange = function () {
 			node = this.parentNode;
-			while( true ) {
-				if( node.tagName.toLowerCase() === "form" ) {
+			while ( true ) {
+				if ( node.tagName.toLowerCase() === 'form' ) {
 					node.submit();
 					break;
 				}
@@ -23,4 +23,4 @@ jQuery( function() {
 
 		i++;
 	}
-});
+} );
