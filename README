@@ -30,7 +30,7 @@ be combined with the MultiLang and Polyglot extensions.
 The LanguageSelector extension was originally written by Daniel Kinzler in 2007
 and is released under the GNU General Public License (GPL).
 
-<https://mediawiki.org/wiki/Extension:LanguageSelector>
+<https://www.mediawiki.org/wiki/Extension:LanguageSelector>
 
 == Installing ==
 
@@ -38,7 +38,7 @@ Copy the LanguageSelector directory into the extensions folder of your
 MediaWiki installation. Then add the following line to your
 LocalSettings.php file (near the end):
 
-  require_once( "$IP/extensions/LanguageSelector/LanguageSelector.php" );
+  wfLoadExtension( 'LanguageSelector' );
 
 == Configuration ==
 
