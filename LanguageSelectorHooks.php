@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class LanguageSelectorHooks {
 	public static function onRegistration() {
 		global $wgLanguageSelectorDetectLanguage, $wgLanguageSelectorLocation, $wgParserOutputHooks;
@@ -65,7 +68,7 @@ class LanguageSelectorHooks {
 		if ( $wgLanguageSelectorLanguages === null ) {
 			$wgLanguageSelectorLanguages = array_keys( Language::fetchLanguageNames(
 				null,
-				$wgLanguageSelectorShowAll === true ? 'mw': 'mwfile'
+				$wgLanguageSelectorShowAll === true ? 'mw' : 'mwfile'
 			) );
 			sort( $wgLanguageSelectorLanguages );
 		}
@@ -79,7 +82,7 @@ class LanguageSelectorHooks {
 	 */
 	public static function onUserGetLanguageObject( $user, &$code ) {
 		global $wgLanguageSelectorDetectLanguage,
-			$wgCommandLineMode, $wgRequest, $wgContLang;
+			$wgCommandLineMode, $wgRequest;
 
 		if ( $wgCommandLineMode ) {
 			return;
@@ -114,8 +117,7 @@ class LanguageSelectorHooks {
 
 					// see if the content language is accepted by the client.
 					if ( $wgLanguageSelectorDetectLanguage != LANGUAGE_SELECTOR_PREFER_CONTENT_LANG
-						|| !array_key_exists( $wgContLang->getCode(), $languages ) )
-					{
+						|| !array_key_exists( MediaWikiServices::getInstance()->getContentLanguage()->getCode(), $languages ) ) {
 
 						$supported = self::getLanguageSelectorLanguages();
 						// look for a language that is acceptable to the client
@@ -314,7 +316,7 @@ class LanguageSelectorHooks {
 	 * @param null|string $class
 	 * @param null|string $selectorstyle
 	 * @param null|string $buttonstyle
-	 * @param null|bool $showcode
+	 * @param null|bool $showCode
 	 * @return string
 	 */
 	public static function languageSelectorHTML( Title $title, $style = null, $class = null, $selectorstyle = null, $buttonstyle = null, $showCode = null ) {
