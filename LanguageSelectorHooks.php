@@ -102,8 +102,9 @@ class LanguageSelectorHooks {
 
 		if ( $setlang && !$user->isAnon() ) {
 			if ( $setlang != $user->getOption( 'language' ) ) {
-				$user->setOption( 'language', $requestedLanguage );
-				$user->saveSettings();
+				$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+				$userOptionsManager->setOption( $user, 'language', $requestedLanguage );
+				$userOptionsManager->saveOptions( $user );
 				$code = $requestedLanguage;
 			}
 		}
@@ -296,8 +297,9 @@ class LanguageSelectorHooks {
 		// if $wgUser is the created user this means remembering what the user selected
 		// otherwise, it would mean inheriting the language from the user creating the account.
 		if ( $wgUser === $user ) {
-			$u->setOption( 'language', $wgLang->getCode() );
-			$u->saveSettings();
+			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+			$userOptionsManager->setOption( $user, 'language', $wgLang->getCode() );
+			$userOptionsManager->saveOptions( $user );
 		}
 	}
 
