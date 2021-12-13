@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"Moon0319"
 		]
 	},
-	"languageselector": "語言",
+	"languageselector": "話",
 	"languageselector-desc": "喺每一版加揀語言嘅功能，未簽到訪客都用得",
 	"languageselector-setlang": "設"
 }
