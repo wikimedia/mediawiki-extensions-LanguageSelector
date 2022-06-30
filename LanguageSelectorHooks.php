@@ -299,7 +299,6 @@ class LanguageSelectorHooks {
 		if ( $wgUser === $user ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'language', $wgLang->getCode() );
-			$userOptionsManager->saveOptions( $user );
 		}
 	}
 
