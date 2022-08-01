@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanberke"
+			"Hanberke",
+			"TayfunEt."
 		]
 	},
-	"languageselector": "Dil"
+	"languageselector": "Dil",
+	"languageselector-desc": "Her sahypada, şeýle hem, gelýänler üçin dil saýlaýjy",
+	"languageselector-setlang": "düzmek"
 }
