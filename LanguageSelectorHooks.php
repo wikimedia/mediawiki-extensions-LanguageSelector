@@ -291,14 +291,14 @@ class LanguageSelectorHooks {
 	 * @param bool $autocreated
 	 */
 	public static function onLocalUserCreated( $user, $autocreated ) {
-		global $wgUser, $wgLang;
+		$context = RequestContext::getMain();
 
 		// inherit language;
-		// if $wgUser is the created user this means remembering what the user selected
+		// if the context user is the created user this means remembering what the user selected
 		// otherwise, it would mean inheriting the language from the user creating the account.
-		if ( $wgUser === $user ) {
+		if ( $context->getUser() === $user ) {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
-			$userOptionsManager->setOption( $user, 'language', $wgLang->getCode() );
+			$userOptionsManager->setOption( $user, 'language', $context->getLanguage()->getCode() );
 		}
 	}
 
