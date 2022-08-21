@@ -88,7 +88,7 @@ class LanguageSelectorHooks {
 			return;
 		}
 
-		$setlang = $wgRequest->getVal( 'setlang' );
+		$setlang = $wgRequest->getRawVal( 'setlang' );
 		if ( $setlang && !in_array( $setlang, self::getLanguageSelectorLanguages() ) ) {
 			$setlang = null; // ignore invalid
 		}
@@ -101,15 +101,15 @@ class LanguageSelectorHooks {
 		}
 
 		if ( $setlang && !$user->isAnon() ) {
-			if ( $setlang != $user->getOption( 'language' ) ) {
-				$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
+			if ( $setlang != $userOptionsManager->getOption( $user, 'language' ) ) {
 				$userOptionsManager->setOption( $user, 'language', $requestedLanguage );
 				$userOptionsManager->saveOptions( $user );
 				$code = $requestedLanguage;
 			}
 		}
 
-		if ( !$wgRequest->getVal( 'uselang' ) && $user->isAnon() ) {
+		if ( !$wgRequest->getRawVal( 'uselang' ) && $user->isAnon() ) {
 			if ( $wgLanguageSelectorDetectLanguage != LANGUAGE_SELECTOR_USE_CONTENT_LANG ) {
 				if ( $requestedLanguage ) {
 					$code = $requestedLanguage;
