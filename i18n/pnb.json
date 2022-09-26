@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abbas dhothar"
+			"Abbas dhothar",
+			"Bgo eiu"
 		]
 	},
-	"languageselector": "بولی"
+	"languageselector": "بولی",
+	"languageselector-desc": "ہریک صفحے 'تے بھاشا چوݨکار پراہݨیاں لئی وی",
+	"languageselector-setlang": "سیٹ کرو"
 }
