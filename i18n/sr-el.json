@@ -5,6 +5,6 @@
 		]
 	},
 	"languageselector": "Jezik",
-	"languageselector-desc": "Izbirač jezika na svakom jeziku, i takođe za posetioce",
+	"languageselector-desc": "Birač jezika na svakoj stranici, takođe i za posetioce",
 	"languageselector-setlang": "postavi"
 }
