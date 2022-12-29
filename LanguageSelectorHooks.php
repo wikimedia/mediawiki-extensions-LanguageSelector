@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 
 class LanguageSelectorHooks {
@@ -66,9 +67,10 @@ class LanguageSelectorHooks {
 		global $wgLanguageSelectorLanguages, $wgLanguageSelectorShowAll;
 
 		if ( $wgLanguageSelectorLanguages === null ) {
-			$wgLanguageSelectorLanguages = array_keys( Language::fetchLanguageNames(
-				null,
-				$wgLanguageSelectorShowAll === true ? 'mw' : 'mwfile'
+			$wgLanguageSelectorLanguages = array_keys(
+				MediaWikiServices::getInstance()->getLanguageNameUtils()->getLanguageNames(
+					LanguageNameUtils::AUTONYMS,
+					$wgLanguageSelectorShowAll === true ? LanguageNameUtils::DEFINED : LanguageNameUtils::SUPPORTED
 			) );
 			sort( $wgLanguageSelectorLanguages );
 		}
@@ -248,10 +250,11 @@ class LanguageSelectorHooks {
 			$code = $skin->getLanguage()->getCode();
 			$lines = [];
 
+			$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 			foreach ( self::getLanguageSelectorLanguages() as $ln ) {
 				$lines[] = [
 					$href = $skin->getTitle()->getFullURL( 'setlang=' . $ln ),
-					'text' => Language::fetchLanguageName( $ln ),
+					'text' => $languageNameUtils->getLanguageName( $ln ),
 					'href' => $href,
 					'id' => 'n-languageselector',
 					'active' => ( $ln == $code ),
@@ -354,8 +357,9 @@ class LanguageSelectorHooks {
 			'style' => $selectorstyle
 		] );
 
+		$languageNameUtils = MediaWikiServices::getInstance()->getLanguageNameUtils();
 		foreach ( self::getLanguageSelectorLanguages() as $ln ) {
-			$name = Language::fetchLanguageName( $ln );
+			$name = $languageNameUtils->getLanguageName( $ln );
 			if ( $showCode ) {
 				$name = LanguageCode::bcp47( $ln ) . ' - ' . $name;
 			}
