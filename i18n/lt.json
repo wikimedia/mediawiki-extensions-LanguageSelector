@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hugo.arg"
+			"Hugo.arg",
+			"Nokeoo"
 		]
 	},
 	"languageselector": "Kalba",
+	"languageselector-desc": "Kalbos pasirinkimas kiekviename puslapyje, taip pat lankytojams",
 	"languageselector-setlang": "nustatyti"
 }
