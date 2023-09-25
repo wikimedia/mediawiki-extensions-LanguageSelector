@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Рустам Нурыев"
+			"Рустам Нурыев",
+			"З. ӘЙЛЕ"
 		]
 	},
-	"languageselector": "Тышҡы күренештә ҡулланылған тел:",
-	"languageselector-desc": "Һәр биттә тел һайлау, шулай уҡ ябай кереүселәр өсөн",
-	"languageselector-setlang": "Билдәләргә"
+	"languageselector": "Тел",
+	"languageselector-desc": "Һәр биттә тел һайлау, ябай ҡулланыусылар ҙа файҙалана ала",
+	"languageselector-setlang": "Телдәр исемлеге"
 }
