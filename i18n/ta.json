@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fahimrazick",
 			"Karthi.dr",
 			"Mahir78"
 		]
 	},
 	"languageselector": "மொழி",
+	"languageselector-desc": "ஒவ்வொரு பக்கத்திலும் மொழித் தேர்வி, பார்வையாளர்களுக்காகவும்",
 	"languageselector-setlang": "அமை"
 }
