@@ -197,10 +197,10 @@ class LanguageSelectorHooks {
 	 * @return string
 	 */
 	public static function languageSelectorTag( $input, $args, $parser ) {
-		$style = $args['style'] ?? null;
-		$class = $args['class'] ?? null;
-		$selectorstyle = $args['selectorstyle'] ?? null;
-		$buttonstyle = $args['buttonstyle'] ?? null;
+		$style = $args['style'] ?? '';
+		$class = $args['class'] ?? '';
+		$selectorstyle = $args['selectorstyle'] ?? '';
+		$buttonstyle = $args['buttonstyle'] ?? '';
 		$showcode = $args['showcode'] ?? null;
 
 		if ( $style ) {
@@ -316,14 +316,21 @@ class LanguageSelectorHooks {
 
 	/**
 	 * @param Title $title
-	 * @param null|string $style
-	 * @param null|string $class
-	 * @param null|string $selectorstyle
-	 * @param null|string $buttonstyle
+	 * @param string $style
+	 * @param string $class
+	 * @param string $selectorstyle
+	 * @param string $buttonstyle
 	 * @param null|bool $showCode
 	 * @return string
 	 */
-	public static function languageSelectorHTML( Title $title, $style = null, $class = null, $selectorstyle = null, $buttonstyle = null, $showCode = null ) {
+	public static function languageSelectorHTML(
+		Title $title,
+		string $style = '',
+		string $class = '',
+		string $selectorstyle = '',
+		string $buttonstyle = '',
+		$showCode = null
+	) {
 		global $wgLang, $wgScript, $wgLanguageSelectorShowCode;
 
 		if ( $showCode === null ) {
