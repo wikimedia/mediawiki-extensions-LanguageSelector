@@ -106,18 +106,19 @@ class LanguageSelectorHooks implements
 	 * @param IContextSource $context
 	 */
 	public function onUserGetLanguageObject( $user, &$code, $context ) {
-		global $wgLanguageSelectorDetectLanguage, $wgRequest;
+		global $wgLanguageSelectorDetectLanguage;
 
-		$setlang = $wgRequest->getRawVal( 'setlang' );
+		$request = $context->getRequest();
+		$setlang = $request->getRawVal( 'setlang' );
 		if ( $setlang && !in_array( $setlang, self::getLanguageSelectorLanguages() ) ) {
 			$setlang = null; // ignore invalid
 		}
 
 		if ( $setlang ) {
-			$wgRequest->response()->setcookie( 'LanguageSelectorLanguage', $setlang );
+			$request->response()->setcookie( 'LanguageSelectorLanguage', $setlang );
 			$requestedLanguage = $setlang;
 		} else {
-			$requestedLanguage = $wgRequest->getCookie( 'LanguageSelectorLanguage' );
+			$requestedLanguage = $request->getCookie( 'LanguageSelectorLanguage' );
 		}
 
 		if ( $setlang && !$user->isAnon() ) {
@@ -129,12 +130,12 @@ class LanguageSelectorHooks implements
 			}
 		}
 
-		if ( !$wgRequest->getRawVal( 'uselang' ) && $user->isAnon() ) {
+		if ( !$request->getRawVal( 'uselang' ) && $user->isAnon() ) {
 			if ( $wgLanguageSelectorDetectLanguage != LANGUAGE_SELECTOR_USE_CONTENT_LANG ) {
 				if ( $requestedLanguage ) {
 					$code = $requestedLanguage;
 				} else {
-					$languages = $wgRequest->getAcceptLang();
+					$languages = $request->getAcceptLang();
 
 					// see if the content language is accepted by the client.
 					if ( $wgLanguageSelectorDetectLanguage != LANGUAGE_SELECTOR_PREFER_CONTENT_LANG
