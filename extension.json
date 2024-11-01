@@ -53,12 +53,17 @@
 			"description": "Show all languages defined, not only those with a language file"
 		}
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "LanguageSelectorHooks"
+		}
+	},
 	"Hooks": {
-		"BeforePageDisplay": "LanguageSelectorHooks::onBeforePageDisplay",
-		"GetCacheVaryCookies": "LanguageSelectorHooks::onGetCacheVaryCookies",
-		"LocalUserCreated": "LanguageSelectorHooks::onLocalUserCreated",
-		"ParserFirstCallInit": "LanguageSelectorHooks::onParserFirstCallInit",
-		"UserGetLanguageObject": "LanguageSelectorHooks::onUserGetLanguageObject"
+		"BeforePageDisplay": "main",
+		"GetCacheVaryCookies": "main",
+		"LocalUserCreated": "main",
+		"ParserFirstCallInit": "main",
+		"UserGetLanguageObject": "main"
 	},
 	"manifest_version": 2
 }

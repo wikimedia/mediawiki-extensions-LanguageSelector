@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
@@ -11,7 +12,13 @@ use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWiki\Xml\Xml;
 
-class LanguageSelectorHooks {
+class LanguageSelectorHooks implements
+	\MediaWiki\Auth\Hook\LocalUserCreatedHook,
+	\MediaWiki\Hook\BeforePageDisplayHook,
+	\MediaWiki\Hook\GetCacheVaryCookiesHook,
+	\MediaWiki\Hook\ParserFirstCallInitHook,
+	\MediaWiki\Hook\UserGetLanguageObjectHook
+{
 	public static function onRegistration() {
 		global $wgLanguageSelectorDetectLanguage, $wgLanguageSelectorLocation, $wgParserOutputHooks;
 
@@ -71,7 +78,7 @@ class LanguageSelectorHooks {
 	/**
 	 * @param Parser $parser
 	 */
-	public static function onParserFirstCallInit( Parser $parser ) {
+	public function onParserFirstCallInit( $parser ) {
 		$parser->setHook( 'languageselector', [ __CLASS__, 'languageSelectorTag' ] );
 	}
 
@@ -96,8 +103,9 @@ class LanguageSelectorHooks {
 	/**
 	 * @param User $user
 	 * @param string &$code
+	 * @param IContextSource $context
 	 */
-	public static function onUserGetLanguageObject( $user, &$code ) {
+	public function onUserGetLanguageObject( $user, &$code, $context ) {
 		global $wgLanguageSelectorDetectLanguage, $wgRequest;
 
 		$setlang = $wgRequest->getRawVal( 'setlang' );
@@ -162,7 +170,7 @@ class LanguageSelectorHooks {
 	 * @param OutputPage $out
 	 * @param Skin $skin
 	 */
-	public static function onBeforePageDisplay( OutputPage $out, Skin $skin ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		global $wgLanguageSelectorLocation;
 
 		if ( $wgLanguageSelectorLocation == LANGUAGE_SELECTOR_MANUAL ) {
@@ -183,7 +191,7 @@ class LanguageSelectorHooks {
 	 * @param OutputPage $out
 	 * @param array &$cookies
 	 */
-	public static function onGetCacheVaryCookies( $out, &$cookies ) {
+	public function onGetCacheVaryCookies( $out, &$cookies ) {
 		global $wgCookiePrefix;
 
 		$cookies[] = $wgCookiePrefix . 'LanguageSelectorLanguage';
@@ -303,7 +311,7 @@ class LanguageSelectorHooks {
 	 * @param User $user
 	 * @param bool $autocreated
 	 */
-	public static function onLocalUserCreated( $user, $autocreated ) {
+	public function onLocalUserCreated( $user, $autocreated ) {
 		$context = RequestContext::getMain();
 
 		// inherit language;
