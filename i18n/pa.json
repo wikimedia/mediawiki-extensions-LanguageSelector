@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Aalam",
-			"Babanwalia"
+			"Babanwalia",
+			"Cabal"
 		]
 	},
 	"languageselector": "ਬੋਲੀ:",
 	"languageselector-desc": "ਹਰੇਕ ਸਫ਼ੇ 'ਤੇ ਭਾਸ਼ਾ ਚੋਣਕਾਰ, ਪ੍ਰਾਹੁਣਿਆਂ ਲਈ ਵੀ",
-	"languageselector-setlang": "ਸੈੱਟ ਕਰੋ"
+	"languageselector-setlang": "ਕਾਇਮ ਕਰੋ"
 }
