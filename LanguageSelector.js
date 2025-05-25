@@ -1,5 +1,5 @@
-jQuery( function () {
-	var i = 1;
+jQuery( () => {
+	let i = 1;
 	while ( true ) {
 		var btn = document.getElementById( 'languageselector-commit-' + i ),
 			sel = document.getElementById( 'languageselector-select-' + i ),
