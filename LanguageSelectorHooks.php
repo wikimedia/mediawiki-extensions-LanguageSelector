@@ -385,7 +385,7 @@ class LanguageSelectorHooks {
 		}
 
 		$html .= Xml::closeElement( 'select' );
-		$html .= Xml::submitButton( wfMessage( 'languageselector-setlang' )->text(),
+		$html .= Html::submitButton( wfMessage( 'languageselector-setlang' )->text(),
 			[ 'id' => 'languageselector-commit-' . $id, 'style' => $buttonstyle ] );
 		$html .= Xml::closeElement( 'form' );
 		$html .= Xml::closeElement( 'span' );
