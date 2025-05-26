@@ -1,7 +1,15 @@
 <?php
 
+use MediaWiki\Context\RequestContext;
+use MediaWiki\Html\Html;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
+use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\ParserOutput;
+use MediaWiki\Title\Title;
+use MediaWiki\User\User;
+use MediaWiki\Xml\Xml;
 
 class LanguageSelectorHooks {
 	public static function onRegistration() {
