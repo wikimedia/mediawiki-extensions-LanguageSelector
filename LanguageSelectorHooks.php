@@ -35,19 +35,26 @@ class LanguageSelectorHooks {
 	}
 
 	public static function extension() {
-		global $wgLanguageSelectorLocation, $wgHooks;
+		global $wgLanguageSelectorLocation;
 
 		// We'll probably be beaten to this by the call in onUserGetLanguageObject(),
 		// but just in case, call this to make sure the global is properly initialised
 		self::getLanguageSelectorLanguages();
 
 		if ( $wgLanguageSelectorLocation != LANGUAGE_SELECTOR_MANUAL && $wgLanguageSelectorLocation != LANGUAGE_SELECTOR_AT_TOP_OF_TEXT ) {
+			$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
 			switch ( $wgLanguageSelectorLocation ) {
 				case LANGUAGE_SELECTOR_IN_TOOLBOX:
-					$wgHooks['SkinAfterPortlet'][] = 'LanguageSelectorHooks::onSkinAfterPortlet';
+					$hookContainer->register(
+						'SkinAfterPortlet',
+						[ self::class, 'onSkinAfterPortlet' ]
+					);
 					break;
 				default:
-					$wgHooks['SkinTemplateOutputPageBeforeExec'][] = 'LanguageSelectorHooks::onSkinTemplateOutputPageBeforeExec';
+					$hookContainer->register(
+						'SkinTemplateOutputPageBeforeExec',
+						[ self::class, 'onSkinTemplateOutputPageBeforeExec' ]
+					);
 					break;
 			}
 		}
