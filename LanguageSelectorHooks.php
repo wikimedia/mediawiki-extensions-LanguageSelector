@@ -91,12 +91,7 @@ class LanguageSelectorHooks {
 	 * @param string &$code
 	 */
 	public static function onUserGetLanguageObject( $user, &$code ) {
-		global $wgLanguageSelectorDetectLanguage,
-			$wgCommandLineMode, $wgRequest;
-
-		if ( $wgCommandLineMode ) {
-			return;
-		}
+		global $wgLanguageSelectorDetectLanguage, $wgRequest;
 
 		$setlang = $wgRequest->getRawVal( 'setlang' );
 		if ( $setlang && !in_array( $setlang, self::getLanguageSelectorLanguages() ) ) {
