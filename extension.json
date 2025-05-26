@@ -11,7 +11,7 @@
 	"type": "other",
 	"callback": "LanguageSelectorHooks::onRegistration",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.43"
 	},
 	"ExtensionFunctions": [
 		"LanguageSelectorHooks::extension"
