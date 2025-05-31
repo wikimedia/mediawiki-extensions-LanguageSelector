@@ -7,7 +7,6 @@
 	],
 	"rules": {
 		"no-loop-func": "off",
-		"no-undef": "off",
-		"no-var": "warn"
+		"no-undef": "off"
 	}
 }

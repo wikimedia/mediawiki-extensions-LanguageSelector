@@ -1,9 +1,8 @@
-jQuery( () => {
+$( () => {
 	let i = 1;
 	while ( true ) {
-		var btn = document.getElementById( 'languageselector-commit-' + i ),
-			sel = document.getElementById( 'languageselector-select-' + i ),
-			node;
+		const btn = document.getElementById( 'languageselector-commit-' + i );
+		const sel = document.getElementById( 'languageselector-select-' + i );
 
 		if ( !btn ) {
 			break;
@@ -11,7 +10,7 @@ jQuery( () => {
 
 		btn.style.display = 'none';
 		sel.onchange = function () {
-			node = this.parentNode;
+			let node = this.parentNode;
 			while ( true ) {
 				if ( node.tagName.toLowerCase() === 'form' ) {
 					node.submit();
