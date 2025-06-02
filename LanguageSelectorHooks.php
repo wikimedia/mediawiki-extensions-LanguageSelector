@@ -6,7 +6,6 @@ use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Parser\Parser;
-use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
@@ -14,7 +13,7 @@ use MediaWiki\Xml\Xml;
 
 class LanguageSelectorHooks {
 	public static function onRegistration() {
-		global $wgLanguageSelectorDetectLanguage, $wgLanguageSelectorLocation, $wgParserOutputHooks;
+		global $wgLanguageSelectorDetectLanguage, $wgLanguageSelectorLocation;
 
 		define( 'LANGUAGE_SELECTOR_USE_CONTENT_LANG', 0 ); # no detection
 		define( 'LANGUAGE_SELECTOR_PREFER_CONTENT_LANG', 1 ); # use content language if accepted by the client
@@ -39,8 +38,6 @@ class LanguageSelectorHooks {
 		define( 'LANGUAGE_SELECTOR_INTO_CATLINKS', 14 ); # put after catlinks text
 
 		$wgLanguageSelectorLocation = LANGUAGE_SELECTOR_AT_TOP_OF_TEXT;
-
-		$wgParserOutputHooks['languageselector'] = 'LanguageSelectorHooks::addJavascript';
 	}
 
 	public static function extension() {
@@ -245,7 +242,7 @@ class LanguageSelectorHooks {
 		}
 
 		# So that this also works with parser cache
-		$parser->getOutput()->addOutputHook( 'languageselector' );
+		$parser->getOutput()->addModules( [ 'ext.languageSelector' ] );
 
 		return self::languageSelectorHTML( $parser->getTitle(), $style, $class, $selectorstyle, $buttonstyle, $showcode );
 	}
@@ -314,15 +311,6 @@ class LanguageSelectorHooks {
 			$userOptionsManager = MediaWikiServices::getInstance()->getUserOptionsManager();
 			$userOptionsManager->setOption( $user, 'language', $context->getLanguage()->getCode() );
 		}
-	}
-
-	/**
-	 * @param OutputPage $outputPage
-	 * @param ParserOutput $parserOutput
-	 * @param mixed $data
-	 */
-	public static function addJavascript( $outputPage, $parserOutput, $data ) {
-		$outputPage->addModules( 'ext.languageSelector' );
 	}
 
 	/**
