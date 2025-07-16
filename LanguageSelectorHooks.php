@@ -7,6 +7,7 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\ParserOutput;
+use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWiki\Xml\Xml;
@@ -214,7 +215,7 @@ class LanguageSelectorHooks {
 		$showcode = $args['showcode'] ?? null;
 
 		if ( $style ) {
-			$style = htmlspecialchars( $style, ENT_QUOTES );
+			$style = Sanitizer::checkCss( $style );
 		}
 
 		if ( $class ) {
