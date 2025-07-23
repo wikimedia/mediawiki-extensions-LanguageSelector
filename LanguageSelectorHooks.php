@@ -2,6 +2,7 @@
 
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Sanitizer;
 
 class LanguageSelectorHooks {
 	public static function onRegistration() {
@@ -211,7 +212,7 @@ class LanguageSelectorHooks {
 		$showcode = $args['showcode'] ?? null;
 
 		if ( $style ) {
-			$style = htmlspecialchars( $style, ENT_QUOTES );
+			$style = Sanitizer::checkCss( $style );
 		}
 
 		if ( $class ) {
