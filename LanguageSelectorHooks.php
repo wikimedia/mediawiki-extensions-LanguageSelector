@@ -202,7 +202,7 @@ class LanguageSelectorHooks {
 		$showcode = $args['showcode'] ?? null;
 
 		if ( $style ) {
-			$style = htmlspecialchars( $style, ENT_QUOTES );
+			$style = Sanitizer::checkCss( $style );
 		}
 
 		if ( $class ) {
