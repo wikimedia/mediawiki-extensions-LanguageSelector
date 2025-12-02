@@ -1,6 +1,10 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Sveinn í Felli"
+		]
 	},
-	"languageselector": "Tungumál"
+	"languageselector": "Tungumál",
+	"languageselector-desc": "Tungumálaval á hverri síðu, einnig fyrir gesti",
+	"languageselector-setlang": "setja"
 }
