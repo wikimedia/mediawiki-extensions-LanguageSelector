@@ -10,7 +10,6 @@ use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
-use MediaWiki\Xml\Xml;
 
 class LanguageSelectorHooks implements
 	\MediaWiki\Auth\Hook\LocalUserCreatedHook,
@@ -351,13 +350,13 @@ class LanguageSelectorHooks implements
 		$code = $wgLang->getCode();
 
 		$html = '';
-		$html .= Xml::openElement( 'span', [
+		$html .= Html::openElement( 'span', [
 			'id' => 'languageselector-box-' . $id,
 			'class' => 'languageselector ' . $class,
 			'style' => $style
 		] );
 
-		$html .= Xml::openElement( 'form', [
+		$html .= Html::openElement( 'form', [
 			'name' => 'languageselector-form-' . $id,
 			'id' => 'languageselector-form-' . $id,
 			'method' => 'get',
@@ -366,7 +365,7 @@ class LanguageSelectorHooks implements
 		] );
 
 		$html .= Html::hidden( 'title', $title->getPrefixedDBkey() );
-		$html .= Xml::openElement( 'select', [
+		$html .= Html::openElement( 'select', [
 			'name' => 'setlang',
 			'id' => 'languageselector-select-' . $id,
 			'style' => $selectorstyle
@@ -379,14 +378,14 @@ class LanguageSelectorHooks implements
 				$name = LanguageCode::bcp47( $ln ) . ' - ' . $name;
 			}
 
-			$html .= Xml::option( $name, $ln, $ln == $code );
+			$html .= Html::element( 'option', [ 'value' => $ln, 'selected' => $ln == $code ], $name );
 		}
 
-		$html .= Xml::closeElement( 'select' );
+		$html .= Html::closeElement( 'select' );
 		$html .= Html::submitButton( wfMessage( 'languageselector-setlang' )->text(),
 			[ 'id' => 'languageselector-commit-' . $id, 'style' => $buttonstyle ] );
-		$html .= Xml::closeElement( 'form' );
-		$html .= Xml::closeElement( 'span' );
+		$html .= Html::closeElement( 'form' );
+		$html .= Html::closeElement( 'span' );
 
 		return $html;
 	}
